@@ -1,0 +1,34 @@
+{
+  "lookup": {
+    "_links": {
+      "self": {
+        "href": "/lookupOptions"
+      },
+      "api_doc": {
+        "href": "/api-docs/v3/lookupOptions"
+      },
+      "contributions": {
+        "href": "/contributions/lookupOptions"
+      }
+    },
+    "options": [
+      {
+        "code": "A",
+        "label": "Apple"
+      },
+      {
+        "code": "B",
+        "label": "Banana"
+      },
+      {
+        "code": "D",
+        "label": "Dalo"
+      }
+    ],
+    "filter": {
+      "name": "labelFilter",
+      "param": "labelFilter",
+      "value": "a"
+    }
+  }
+}

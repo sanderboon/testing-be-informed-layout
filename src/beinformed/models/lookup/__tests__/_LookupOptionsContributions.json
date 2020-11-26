@@ -1,0 +1,29 @@
+{
+  "lookup": {
+    "resourcetype": "lookupOptions",
+    "filter": [
+      {
+        "labelFilter": {
+          "type": "stringfilter",
+          "label": "labelFilter"
+        }
+      }
+    ],
+    "options": [
+      {
+        "code": {
+          "type": "string",
+          "label": "Code",
+          "displaysize": 50,
+          "maxLength": 255
+        },
+        "label": {
+          "type": "string",
+          "label": "Label",
+          "displaysize": 50,
+          "maxLength": 255
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/WEB-INF/
+/node/
+/node_modules/
+/_PLUGIN/
+/.idea/
+/coverage/
+/jest/
+yarn.error
+/yarn-error.log
+/.settings/
+/.DS_Store/
+target/
+.cache-loader/
+.cache/
+.eslintcache
+tsconfig.json
+/flow-coverage/

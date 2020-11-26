@@ -1,0 +1,134 @@
+{
+  "lookup": {
+    "_links": {
+      "self": {
+        "href": "/lookupOptions/case-list-one-choice-one-filter"
+      },
+      "api_doc": {
+        "href": "/api-docs/v3/lookupOptions/case-list-one-choice-one-filter"
+      },
+      "contributions": {
+        "href": "/contributions/lookupOptions/case-list-one-choice-one-filter"
+      }
+    },
+    "options": [
+      {
+        "code": "4",
+        "elements": {
+          "ID": 4,
+          "CaseName": "Person ID: bvanberkum",
+          "PersonID": "bvanberkum",
+          "FirstName": "Bjarni",
+          "LastName": "van Berkum",
+          "Gender": "PG_Male",
+          "Address": null,
+          "Zipcode": null,
+          "City": "Deventer"
+        }
+      },
+      {
+        "code": "6",
+        "elements": {
+          "ID": 6,
+          "CaseName": "Person ID: ekaspers",
+          "PersonID": "ekaspers",
+          "FirstName": "Erwin",
+          "LastName": "Kaspers",
+          "Gender": "PG_Male",
+          "Address": null,
+          "Zipcode": null,
+          "City": "Soest"
+        }
+      },
+      {
+        "code": "9",
+        "elements": {
+          "ID": 9,
+          "CaseName": "Person ID: gdegraaf",
+          "PersonID": "gdegraaf",
+          "FirstName": "Gerhard",
+          "LastName": "de Graaf",
+          "Gender": "PG_Male",
+          "Address": null,
+          "Zipcode": null,
+          "City": "Apeldoorn"
+        }
+      },
+      {
+        "code": "13",
+        "elements": {
+          "ID": 13,
+          "CaseName": "Person ID: hvanschuppen",
+          "PersonID": "hvanschuppen",
+          "FirstName": "Henk-Jan",
+          "LastName": "van Schuppen",
+          "Gender": "PG_Male",
+          "Address": null,
+          "Zipcode": null,
+          "City": "Utrecht"
+        }
+      },
+      {
+        "code": "15",
+        "elements": {
+          "ID": 15,
+          "CaseName": "Person ID: jvandermeer",
+          "PersonID": "jvandermeer",
+          "FirstName": "Jeroen",
+          "LastName": "van der Meer",
+          "Gender": "PG_Male",
+          "Address": null,
+          "Zipcode": null,
+          "City": "Zwolle"
+        }
+      },
+      {
+        "code": "16",
+        "elements": {
+          "ID": 16,
+          "CaseName": "Person ID: jsijbesma",
+          "PersonID": "jsijbesma",
+          "FirstName": "John",
+          "LastName": "Sijbesma",
+          "Gender": "PG_Male",
+          "Address": null,
+          "Zipcode": null,
+          "City": "Enschede"
+        }
+      },
+      {
+        "code": "20",
+        "elements": {
+          "ID": 20,
+          "CaseName": "Person ID: mvanwesterlaak",
+          "PersonID": "mvanwesterlaak",
+          "FirstName": "Michel",
+          "LastName": "van Westerlaak",
+          "Gender": "PG_Male",
+          "Address": null,
+          "Zipcode": null,
+          "City": "Soesterberg"
+        }
+      },
+      {
+        "code": "24",
+        "elements": {
+          "ID": 24,
+          "CaseName": "Person ID: rvanrooijen",
+          "PersonID": "rvanrooijen",
+          "FirstName": "Rob",
+          "LastName": "van Rooijen",
+          "Gender": "PG_Male",
+          "Address": null,
+          "Zipcode": null,
+          "City": "Apeldoorn"
+        }
+      }
+    ],
+    "filter": {
+      "name": "LastName",
+      "param": "LastName",
+      "value": "a"
+    }
+  }
+}

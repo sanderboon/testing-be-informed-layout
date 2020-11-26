@@ -1,0 +1,79 @@
+{
+  "formresponse": {
+    "_links": {
+      "self": { "href": "/persons/persons/createperson" },
+      "api_doc": { "href": "/api-docs/v3/persons/persons/createperson" },
+      "contributions": { "href": "/contributions/persons/persons/createperson" }
+    },
+    "missing": {
+      "anchors": [
+        {
+          "objectid": "Details",
+          "elements": [
+            { "elementid": "Address" },
+            { "elementid": "Zipcode" },
+            { "elementid": "City" },
+            { "elementid": "Type" },
+            { "elementid": "PhoneNumber" },
+            { "elementid": "E_mailAddress" },
+            { "elementid": "BankAccountNumber" },
+            { "elementid": "ChoiceRadioButton" },
+            { "elementid": "ChoiceCheckBox" },
+            { "elementid": "ChoiceListView" },
+            { "elementid": "ChoiceComboBox" },
+            { "elementid": "Date" },
+            {
+              "elementid": "DateRange",
+              "elements": [
+                { "elementid": "BeginDate" },
+                { "elementid": "EndDate" }
+              ]
+            },
+            {
+              "elementid": "E_mail",
+              "static": true,
+              "value": "info@beinformed.com"
+            },
+            {
+              "elementid": "HelpText1",
+              "static": true,
+              "value":
+                "<p>Dit is <strike>een</strike> helptekst!<br />Hallo <em>daar</em>.<br />Even <u>wat</u> meer <strong>regels.</strong></p>"
+            },
+            { "elementid": "Label1", "static": true, "value": "Label 1" },
+            { "elementid": "Memo" },
+            { "elementid": "Number" },
+            { "elementid": "Password" },
+            { "elementid": "BSN" },
+            { "elementid": "NativeCountry" },
+            { "elementid": "Time" },
+            {
+              "elementid": "TimeRange",
+              "elements": [
+                { "elementid": "BeginTime" },
+                { "elementid": "EndTime" }
+              ]
+            },
+            { "elementid": "Timestamp" },
+            {
+              "elementid": "TimestampRange",
+              "elements": [
+                { "elementid": "BeginTimestamp" },
+                { "elementid": "EndTimestamp" }
+              ]
+            },
+            { "elementid": "Upload" },
+            { "elementid": "XML" },
+            {
+              "elementid": "FormattedMemo",
+              "suggestion": "<p>test <b>Bold</b></p>"
+            },
+            { "elementid": "Zipcode2" },
+            { "elementid": "Location", "static": true, "value": "/tmp" },
+            { "elementid": "Captcha" }
+          ]
+        }
+      ]
+    }
+  }
+}

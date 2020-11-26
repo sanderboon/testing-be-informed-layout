@@ -1,0 +1,77 @@
+{
+  "tab": {
+    "label": "Books",
+    "resourcetype": "CaseTab",
+    "_links": {
+      "component": [
+        {
+          "name": "Books",
+          "label": "Books",
+          "layouthint": ["CardView", "ListView", "TableView"],
+          "resourcetype": "CaseList"
+        },
+        {
+          "name": "BooksByPersonRole",
+          "label": "Books by person role",
+          "resourcetype": "CaseList"
+        },
+        {
+          "name": "BookPrints",
+          "label": "Book prints",
+          "resourcetype": "DatastoreList"
+        },
+        {
+          "name": "LatestBooks",
+          "label": "Latest books",
+          "resourcetype": "DatastoreList"
+        }
+      ],
+      "taskgroup": [
+        {
+          "name": "GeneralTasks",
+          "label": "General tasks",
+          "resourcetype": "TaskGroup"
+        },
+        {
+          "name": "BookTasks",
+          "label": "Book tasks",
+          "resourcetype": "TaskGroup"
+        }
+      ],
+      "search": [
+        {
+          "name": "Search",
+          "label": "Search",
+          "resourcetype": ""
+        }
+      ]
+    },
+    "taskgroups": [
+      {
+        "name": "GeneralTasks",
+        "actions": [
+          {
+            "name": "CreatePersonRef",
+            "label": "Create person",
+            "type": "form"
+          },
+          {
+            "name": "UpdatePasswordOfCurrentUser_ref",
+            "label": "Update password of current user",
+            "type": "form"
+          }
+        ]
+      },
+      {
+        "name": "BookTasks",
+        "actions": [
+          {
+            "name": "AddauthorRef",
+            "label": "Add author",
+            "type": "form"
+          }
+        ]
+      }
+    ]
+  }
+}

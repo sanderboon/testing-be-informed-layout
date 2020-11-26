@@ -1,0 +1,8 @@
+{
+  "hooks": {
+    "commit-msg": "npx commitlint -E HUSKY_GIT_PARAMS",
+    "post-commit": "git update-index --again",
+    "pre-commit": "npx lint-staged",
+    "prepare-commit-msg": "npx commit-template"
+  }
+}

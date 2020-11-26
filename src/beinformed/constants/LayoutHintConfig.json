@@ -1,0 +1,371 @@
+{
+  "MANDATORY": {
+    "hint": "mandatory",
+    "description": {
+      "NL": "Geeft aan of een attribuut verplicht is. Dient samen met de dependency hint gebruikt te worden.",
+      "EN": "Indicates a mandatory attribute.\nShould be used together with the dependency hint."
+    },
+    "link": "",
+    "component": ["attribute"]
+  },
+  "INLINE_EDIT_LIST": {
+    "hint": "inline-edit",
+    "description": {
+      "NL": "Toont een lijst als een direct bewerkbare lijst.",
+      "EN": "Renders a list as an inline editable list."
+    },
+    "link": "",
+    "component": ["list"]
+  },
+  "INLINE_EDIT_CAN_DUPLICATE": {
+    "hint": "can-duplicate",
+    "description": {
+      "NL": "Geeft aan dat rijen gedupliceerd kunnen worden in een lijst met inline edit. Een cre&#235;er taak moet aanwezig zijn.",
+      "EN": "Indicates that the inline edit list can duplicate rows. A create task needs to be present."
+    },
+    "link": "",
+    "component": ["list"]
+  },
+  "DEPENDENT_ATTRIBUTE_CONTROL": {
+    "hint": "dependent-control ${unique-control-id}",
+    "description": {
+      "NL": "Geeft aan dat dit het attribuut is waar attributen van afhankelijk zijn. Het unique-control-id is een uniek id dat kan worden gebruikt in the hint voor de show|hide actie op het afhankelijke attribuut.",
+      "EN": "Marks the choice attribute where other attributes depend on. The unique control id is a unique id that can be used in the hint for the show|hide action on the dependent attribute."
+    },
+    "link": "",
+    "component": ["attribute/boolean", "attribute/choice"]
+  },
+  "DEPENDENT_ATTRIBUTE_ACTION": {
+    "hint": "dependent-attribute:(show|hide) when dependent-control:${unique-control-id} (equals|includes|notEquals|notIncludes) [${codemaps}]",
+    "description": {
+      "NL": "Toon of verberg een attribute dat afhankelijk is van de geselecteerde opties van een keuze attribute",
+      "EN": "To show or hide an attribute dependent on options of the choice control codemap that are selected or not selected."
+    },
+    "link": "",
+    "component": ["attribute"]
+  },
+  "NOTIFY": {
+    "hint": "notify",
+    "description": {
+      "NL": "Generieke informatie melding na het uivoeren van een formulier",
+      "EN": "Generic message shown after executing a form"
+    },
+    "link": "",
+    "component": ["task", "form"]
+  },
+  "MULTI_ROW_TASK": {
+    "hint": "multi-row-task",
+    "description": {
+      "NL": "Voeg vinkjes toe aan het begin van elke rij van de tabel. De selectie van deze vinkjes zal worden meegegeven aan de taak als deze wordt gestart.",
+      "EN": "Add checkboxes in front of list rows which are used as input for the multi row task."
+    },
+    "link": "",
+    "component": ["task/create", "task/generalpanel"]
+  },
+  "FORM_FINISH_RETURN": {
+    "hint": "return",
+    "description": {
+      "NL": "Nadat een formulier is afgerond volg dan niet de redirects en update ook de huidige lijst niet.",
+      "EN": "After form is finished don't follow redirects and do not update the current list."
+    },
+    "link": "",
+    "component": ["form", "task"]
+  },
+  "FORM_FINISH_RETURN_RELOAD_LIST": {
+    "hint": "return-and-reload-list",
+    "description": {
+      "NL": "Nadat een formulier is afgerond volg dan niet de redirects maar herlaad de huidige lijst.",
+      "EN": "After form is finished don't follow redirects, just reload the list currently active."
+    },
+    "link": "",
+    "component": ["form", "task"]
+  },
+  "HIDE_LABEL": {
+    "hint": "hide-label",
+    "description": {
+      "NL": "Verberg het label van een attribuut of vraag in formulier context.",
+      "EN": "Hide the label of an attribute or question in form context."
+    },
+    "link": "",
+    "component": ["attribute", "question"]
+  },
+  "GOTO_CASEVIEW": {
+    "hint": "go-to-case-view",
+    "description": {
+      "NL": "Opens the first link on a case list to go to the case view.",
+      "EN": "Opens the first link on a case list to go to the case view."
+    },
+    "link": "",
+    "component": ["list/case", "list/datastore"]
+  },
+  "SHOW_ONE_RESULT_AS_DETAIL": {
+    "hint": "show-one-result-as-detail",
+    "description": {
+      "NL": "Een lijst met maar één item mag direct als detail getoond worden.",
+      "EN": "A list with only one detail must be shown as a detail."
+    },
+    "link": "",
+    "component": ["list"]
+  },
+  "HIDE_WHEN_EMPTY": {
+    "hint": "hide-when-empty",
+    "description": {
+      "NL": "Een lijst zonder lijst-items en lijst-taken dient niet getoond worden.",
+      "EN": "A list without list-items and list-tasks should not be shown."
+    }
+  },
+  "CONFIRM_PASSWORD": {
+    "hint": "confirm-password",
+    "description": {
+      "NL": "Wachtwoord attribuut moet bevestigd worden dmv een tweede wachtwoord attribuut.",
+      "EN": "Password attribute must be confirmed using a second password attribute."
+    },
+    "link": "",
+    "component": ["attribute/password"]
+  },
+  "TITLE": {
+    "hint": "title",
+    "description": {
+      "NL": "Markeert een attribuut als een titel attribuut",
+      "EN": "Marks an attribute as a title attribute"
+    },
+    "link": "",
+    "component": [
+      "caseview_table",
+      "codemap",
+      "list/appointment_table",
+      "list/assignment_table",
+      "list/caseproperties_table",
+      "list/document_table",
+      "list/timelimit_table",
+      "list/eventhistory_table",
+      "list/note_table",
+      "list/record_table",
+      "list/case_table",
+      "list/casesearch_table",
+      "list/datastore_table",
+      "list/datastoreview_table",
+      "list/instrumentresult_table",
+      "list/event_table",
+      "list/user_table",
+      "list/organization_table"
+    ]
+  },
+  "SHOW_ATTRIBUTE_SET_LABELS_IN_DETAILS": {
+    "hint": "show-attribute-set-labels-in-details",
+    "description": {
+      "NL": "Toont labels van attribuutverzamelingen in de detailweergave van de gebeurtenislijst.",
+      "EN": "Displays labels of attribute sets in the detail view of the event list."
+    },
+    "link": "",
+    "component": ["list/event"]
+  },
+  "INITIAL_TOTAL_FILESIZE": {
+    "hint": "initial-total-file-size",
+    "description": {
+      "NL": "Wordt gebruikt in samenwerking met een upload attribuut, deze hint moet worden gezet op een readonly attribuut dat de reeds gebruikte file grootte bevat.",
+      "EN": "Used in conjunction with an upload attribute, this hint is set on a read only attribute containing the file size currently used."
+    },
+    "link": "",
+    "component": ["attribute/number"]
+  },
+  "MAX_TOTAL_FILESIZE": {
+    "hint": "max-total-file-size",
+    "description": {
+      "NL": "Wordt gebruikt in samenwerking met een upload attribuut, deze hint moet worden gezet op een readonly attribuut dat de maximaal toegestane file grootte bevat.",
+      "EN": "Used in conjunction with an upload attribute, this hint is set on a read only attribute containing the maximum allowed total file size."
+    },
+    "link": "",
+    "component": ["attribute/number"]
+  },
+  "UNIT_AS_PREFIX": {
+    "hint": "unit-as-prefix",
+    "description": {
+      "NL": "Toon de eenheid voor de waarde van het attribuut, standaard wordt deze achter de waarde getoond.",
+      "EN": "Render the unit in front of the value of the attribute, by default the unit is rendered behind the value."
+    },
+    "link": "",
+    "component": ["attribute/number"]
+  },
+  "ICON": {
+    "hint": "icon:",
+    "description": {
+      "NL": "Toon een icon uit de iconset van material design (https://materialdesignicons.com/) voor het label van dit component.",
+      "EN": "Show an icon from the material design icon set (https://materialdesignicons.com/) in front of the label of this component."
+    },
+    "link": "https://materialdesignicons.com/",
+    "component": ["caseview", "list", "task", "form"]
+  },
+  "COMPLETETASK_TASKGROUP": {
+    "hint": "complete-task",
+    "description": {
+      "NL": "Toon de taak in de taakgroep als voltooi taak om een processgedeelte te voltooien.",
+      "EN": "Show the task in the task group as complete task to complete a process element."
+    },
+    "link": "",
+    "component": ["taskgroup"]
+  },
+  "PROCESSTASKS_TASKGROUP": {
+    "hint": "process-tasks",
+    "description": {
+      "NL": "Toon de taken aan de hand van hun processtatus in de case.",
+      "EN": "Show the tasks based on their process status in the case."
+    },
+    "link": "",
+    "component": ["taskgroup"]
+  },
+  "KEEP_SIDEBAR": {
+    "hint": "keep-sidebar",
+    "description": {
+      "NL": "Toon de taakgroep kolom ook als er geen taakgroepen zijn",
+      "EN": "Keep the sidebar column even when no taskgroups are available"
+    },
+    "link": "",
+    "component": ["groupingpanel"]
+  },
+  "CONFIRM": {
+    "hint": "confirm",
+    "description": {
+      "NL": "Toont een bevestigings dialoog bij het starten van een formulier of taak",
+      "EN": "Shows a confirmation dialog when starting a form or task"
+    },
+    "link": "",
+    "component": ["form", "task"]
+  },
+  "CREATE_ACTION": {
+    "hint": "create",
+    "description": {
+      "NL": "Markeer taak als creëer taak.",
+      "EN": "Mark task as create task"
+    },
+    "component": ["form"]
+  },
+  "UPDATE_ACTION": {
+    "hint": "update",
+    "description": {
+      "NL": "Markeer taak als bewerk taak.",
+      "EN": "Mark task as update task"
+    },
+    "component": ["form"]
+  },
+  "DELETE_ACTION": {
+    "hint": "delete",
+    "description": {
+      "NL": "Markeer taak als verwijder taak.",
+      "EN": "Mark task as delete task"
+    },
+    "component": ["form"]
+  },
+  "SORT_OPTIONS": {
+    "hint": "sort-options",
+    "description": {
+      "NL": "Sorteer opties alfabetisch",
+      "EN": "Sort options alphabetically"
+    },
+    "component": ["attribute/choice"]
+  },
+  "COMPACT": {
+    "hint": "compact",
+    "description": {
+      "NL": "Rendert een radio button of toggle widget van een boolean attribute in compact mode, horizontaal uitgelijnd zonder de ja en nee labels.",
+      "EN": "Render a radio button or toggle widget of a boolean attribute in compact mode, horizontally aligned without showing the yes and no labels."
+    },
+    "component": ["attribute/boolean"]
+  },
+  "ALIGN_LEFT": {
+    "hint": "align-left",
+    "description": {
+      "NL": "Rendert een attribute links uitgelijnd op een lijstweergave",
+      "EN": "Renders an attribute left aligned on a list view"
+    },
+    "component": [
+      "list/appointment_table",
+      "list/assignment_table",
+      "list/caseproperties_table",
+      "list/document_table",
+      "list/timelimit_table",
+      "list/eventhistory_table",
+      "list/note_table",
+      "list/record_table",
+      "list/case_table",
+      "list/casesearch_table",
+      "list/datastore_table",
+      "list/datastoreview_table",
+      "list/instrumentresult_table",
+      "list/event_table",
+      "list/user_table",
+      "list/organization_table"
+    ]
+  },
+  "ALIGN_RIGHT": {
+    "hint": "align-right",
+    "description": {
+      "NL": "Rendert een attribute rechts uitgelijnd op een lijstweergave",
+      "EN": "Renders an attribute right aligned on a list view"
+    },
+    "component": [
+      "list/appointment_table",
+      "list/assignment_table",
+      "list/caseproperties_table",
+      "list/document_table",
+      "list/timelimit_table",
+      "list/eventhistory_table",
+      "list/note_table",
+      "list/record_table",
+      "list/case_table",
+      "list/casesearch_table",
+      "list/datastore_table",
+      "list/datastoreview_table",
+      "list/instrumentresult_table",
+      "list/event_table",
+      "list/user_table",
+      "list/organization_table"
+    ]
+  },
+  "ALIGN_CENTER": {
+    "hint": "align-center",
+    "description": {
+      "NL": "Rendert een attribute gecentreerd op een lijstweergave",
+      "EN": "Renders an attribute centered on a list view"
+    },
+    "component": [
+      "list/appointment_table",
+      "list/assignment_table",
+      "list/caseproperties_table",
+      "list/document_table",
+      "list/timelimit_table",
+      "list/eventhistory_table",
+      "list/note_table",
+      "list/record_table",
+      "list/case_table",
+      "list/casesearch_table",
+      "list/datastore_table",
+      "list/datastoreview_table",
+      "list/instrumentresult_table",
+      "list/event_table",
+      "list/user_table",
+      "list/organization_table"
+    ]
+  },
+  "CASEVIEW_LINK": {
+    "hint": "case-view-link",
+    "description": {
+      "NL": "Markeer een case id reference attribute als de referentie naar de case view. Vervangt de self link van een lijst item",
+      "EN": "Mark a case id reference attribute as the reference to the case view. Replaces the self link of a list item"
+    },
+    "component": ["attribute/reference", "list/datastore_table"]
+  },
+  "SHOW_DURATION": {
+    "hint": "show-duration",
+    "description": {
+      "NL": "Toont de duur tussen begin- en einddatum van een datetime range attribute",
+      "EN": "Shows the duration between begin- and enddate of a datetime range attribute"
+    },
+    "component": [
+      "attribute/daterange",
+      "attribute/timerange",
+      "attribute/datetimerange",
+      "attribute/timestamprange"
+    ]
+  }
+}

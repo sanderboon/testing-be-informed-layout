@@ -1,0 +1,21 @@
+{
+  "Book": {
+    "_links": {
+      "self": { "href": "/books/book/34" },
+      "api_doc": { "href": "/api-docs/v3/books/book/(case-id)" },
+      "contributions": { "href": "/contributions/books/book/(case-id)" },
+      "Creator": { "href": "/books/book/34/creator" },
+      "Editions": { "href": "/books/book/34/editions" },
+      "Activities": { "href": "/books/book/34/activities" },
+      "taskgroup": [{ "href": "/books/book/34/Tasks", "name": "Tasks" }]
+    },
+    "_id": 34,
+    "CaseName": "Highly Inappropriate Tales for Young People",
+    "CaseState": "BookRegistered",
+    "Format": "Hardcover",
+    "ISBN10": "434021598X",
+    "ISBN13": "9780434021598",
+    "Language": "EN",
+    "NumberOfPages": 144
+  }
+}

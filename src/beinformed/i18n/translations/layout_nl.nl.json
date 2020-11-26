@@ -1,0 +1,227 @@
+{
+  "Login.Header": "Inloggen",
+  "Login.Msg.IncorrectUsernamePassword": "Ongeldige gebruikersnaam of wachtwoord",
+  "Login.Username": "Gebruikersnaam",
+  "Login.Username.Placeholder": "Vul gebruikersnaam in",
+  "Login.Password": "Wachtwoord",
+  "Login.Password.Placeholder": "Vul wachtwoord in",
+  "Login.Button.Close": "Sluiten",
+  "Login.Button.Login": "Inloggen",
+
+  "CloseButton.label": "Close",
+
+  "ComponentChooser.Menu.SelectComponent": "Selecteer component",
+
+  "UserLinks.Menu.UserProfile": "Gebruikersprofiel",
+  "UserLinks.Menu.ChangePassword": "Wachtwoord wijzigen",
+  "UserLinks.Menu.LogOut": "Uitloggen",
+  "UserLinks.Menu.LogIn": "Inloggen",
+
+  "UserProfile.Button.Close": "Sluiten",
+  "UserProfile.Header": "Gebruikersprofiel",
+
+  "Choice.Boolean.True": "Ja",
+  "Choice.Boolean.False": "Nee",
+
+  "DateTimeInput.ButtonLabel": "Open datumkiezer",
+  "DatePicker.previous": "Vorige",
+  "DatePicker.next": "Volgende",
+  "Datepicker.Day.MondayShort": "Ma",
+  "Datepicker.Day.TuesdayShort": "Di",
+  "Datepicker.Day.WednesdayShort": "Wo",
+  "Datepicker.Day.ThursdayShort": "Do",
+  "Datepicker.Day.FridayShort": "Vr",
+  "Datepicker.Day.SaturdayShort": "Za",
+  "Datepicker.Day.SundayShort": "Zo",
+  "Datepicker.Day.Monday": "Maandag",
+  "Datepicker.Day.Tuesday": "Dinsdag",
+  "Datepicker.Day.Wednesday": "Woensdag",
+  "Datepicker.Day.Thursday": "Donderdag",
+  "Datepicker.Day.Friday": "Vrijdag",
+  "Datepicker.Day.Saturday": "Zaterdag",
+  "Datepicker.Day.Sunday": "Zondag",
+  "DatetimePicker.useTime": "Gebruik tijd",
+  "DatePicker.up": "Omhoog",
+  "DatePicker.down": "Omlaag",
+  "DatepickerTimeHours.Hour": "Uur",
+  "DatepickerTimeHours.Minute": "Minuut",
+  "DatepickerTimeHours.Seconds": "Seconde",
+
+  "Captcha.VerifyButton": "Controleer",
+
+  "ChoiceField.Msg.NotSupported": "Veld wordt niet ondersteund",
+  "ChoiceField.Msg.NoOptionsAvailable": "Geen opties beschikbaar",
+  "ChoiceOption.AltText.RemoveOption": "Verwijderen",
+
+  "LookupInput.Msg.NoOptions": "Geen opties gevonden",
+  "LookupInput.Placeholder": "Vul één of meer tekens in",
+  "LookupInput.Button.Lookup": "Zoek",
+  "LookupInput.AltText.RemoveActiveOption": "Verwijder optie",
+  "LookupInput.ActiveOptions": "Actieve opties",
+
+  "LookupListMain.SelectedLabel": "Geselecteerd:",
+  "LookupList.CloseButton": "Sluiten",
+  "LookupList.SelectButton": "Selecteren",
+
+  "SelectField.Placeholder": "Kies een optie",
+
+  "Filters.Button.ClearAll": "Herstel alle filters",
+  "FilterButton.Label": "Filter",
+  "Filter.toggleButton": "Toggle filter",
+  "ChosenFilters.label": "Gekozen filters",
+  "RangeFilter.From": "van",
+  "RangeFilter.To": "tot",
+
+  "ActionChooser.Button.Actions": "Acties",
+  "ActionChooser.ShowActions": "Toon acties",
+
+  "List.AriaLabel.HeaderToolbar": "Beschikbare acties voor {LIST_LABEL} lijst",
+
+  "ListViewTypeToggle.AriaLabel": "List type aanpassen",
+  "ListViewTypeToggle.AltText.ListViewToggle": "Toon als {VIEWTYPE}",
+  "ListViewTypeToggle.AltText.TableViewToggle": "Toon als {VIEWTYPE}",
+  "ListViewTypeToggle.AltText.EditableTableViewToggle": "Toon als {VIEWTYPE}",
+
+  "ListNoResults.Msg.EnterSearchTerm": "Vul een zoek term in om te zoeken",
+  "ListNoResults.Msg.NoResults": "Geen {LABEL} beschikbaar",
+
+  "ListDetailInstrumentResult.GivenAnswerTitle": "Gegeven antwoorden",
+
+  "TableView.Header.SortBy": "Sorteer op {LABEL}: {DIRECTION}",
+
+  "PagingInfo.Information": "{FIRSTITEM} - {LASTITEM} van {TOTALRESULTS} resultaten",
+
+  "PagingInfo.TotalResults": "{TOTALRESULTS, plural, =0 {Geen resultaten} one {# resultaat} other {# resultaten}}",
+
+  "PagesizeChooser.PageSize": "Pagina grootte: {PAGESIZE}",
+
+  "PagingItem.AriaLabel.GotoFirstPage": "Ga naar de eerste pagina",
+  "PagingItem.AriaLabel.GotoPreviousPage": "Ga naar de vorige pagina, pagina nummer {PREVIOUS_PAGE_NUMBER}",
+  "PagingItem.AriaLabel.GotoNextPage": "Ga naar de volgende pagina, pagina nummer {NEXT_PAGE_NUMBER}",
+  "PagingItem.AriaLabel.GotoLastPage": "Ga naar de laatste pagina, pagina nummer {LAST_PAGE_NUMBER}",
+  "PagingItem.AriaLabel.GotoPage": "Ga naar pagina {PAGE_NUMBER}",
+
+  "Paging.PreviousPage": "Vorige pagina",
+  "Paging.NextPage": "Volgende pagina",
+
+  "QuickSearchInput.Placeholder": "Zoek op {SEARCHOPTION_LABEL}",
+  "QuickSearchInput.SearchLabel": "Zoeken",
+
+  "QuickSearchResuls.Msg.NoResults": "Geen zoekresultaten",
+
+  "SortChooser.SortDefaultLabel": "Sorteer op relevantie",
+  "SortChooser.SortBy": "Sorteer op {COLUMN_NAME}",
+
+  "Sorting.Direction.asc": "Oplopend",
+  "Sorting.Direction.desc": "Aflopend",
+
+  "Notification.Msg.Generic": "Het formulier is afgerond",
+  "Notification.Msg.Create": "Nieuw item gecreëerd.",
+  "Notification.Msg.Update": "Het item is gewijzigd.",
+  "Notification.Msg.Delete": "Het item is verwijderd.",
+
+  "ModelCatalog.Menu": "Model catalogus",
+  "ContentBrowser.Menu": "Content browser",
+  "BusinessModelOverview.Header": "Business model overview",
+  "TargetOperatingModel.Header": "Target operating model",
+  "ModelCatalogSearch.Placeholder": "Zoek op label",
+  "ModelCatalog.EntryDate": "Entry date",
+
+  "BusinessScenario.Header": "Business scenario",
+
+  "ModelOverviewLane.Role": "Rollen",
+  "ModelOverviewLane.Channel": "Kanalen",
+  "ModelOverviewLane.Product": "Producten",
+  "ModelOverviewLane.Case": "Zaken",
+  "ModelOverviewLane.Register": "Registraties",
+
+  "ModelOverviewLane.CustomerSegment": "Klantensegment",
+  "ModelOverviewLane.InteractionChannel": "Interactiekanaal",
+  "ModelOverviewLane.ProductFamily": "Productfamilie",
+  "ModelOverviewLane.SharedPolicy": "Gedeeld beleid",
+  "ModelOverviewLane.BusinessFunction": "Bedrijfsfunctie",
+  "ModelOverviewLane.RegistrationFunction": "Registratie functie",
+
+  "FormAttributeSetRepeatable.Create.Header": "Toevoegen",
+
+  "Form.Button.Previous": "Vorige",
+  "Form.Button.Next": "Volgende",
+  "Form.Button.Finish": "Voltooien",
+  "Form.Button.Cancel": "Annuleren",
+  "Form.Button.Create": "Toevoegen",
+  "Form.Button.Save": "Opslaan",
+
+  "Homepage.Header": "Hallo",
+  "Homepage.Msg": "Dit is een voorbeeld homepage",
+
+  "ConceptFormula.Header": "Formule",
+  "ConceptLabels.Header": "Alternatieve labels",
+  "ConceptProperties.Header": "Eigenschappen",
+  "ConceptRelations.outgoing": "Uitgaand",
+  "ConceptRelations.incoming": "Inkomend",
+  "ConceptTextFragments.Header": "Tekstfragmenten",
+  "ConceptSourceReferences.Header": "Bronreferenties",
+  "ConceptIndex.Header": "Business design",
+  "ContentIndex.Header": "Bronnen",
+  "RelatedConcepts.Header": "Gerelateerde concepten",
+  "SourceReferences.GotoSource": "Ga naar bronreferentie",
+
+  "Concept.Icon.AltText": "Icon van {SUBJECT}",
+
+  "GENERAL_ERROR": "Er is een onbekende fout opgetreden van het type: {type}",
+
+  "UploadField.placeholder": "Kies een bestand...",
+  "UploadField.errorExceedsMaxFileSize": "Bestandsgrootte van {ACTUAL_FILESIZE} is meer dan de maximaal toegestane bestandsgrootte van {MAXIMUM_FILESIZE}",
+  "UploadField.errorExtensionNotAllowed": "Bestand met extensie {EXTENSION} is niet toegestaan",
+
+  "UploadInput.removeFile": "Verwijder bestand",
+
+  "Constraint.DateTime.MissingValue": "Datum en tijd moeten beide worden opgegeven",
+  "Constraint.DateFormat.InvalidFormat": "Datum moet worden opgegeven in het formaat ${format}",
+  "Constraint.TimeFormat.InvalidFormat": "Tijd moet worden opgegeven in het formaat ${format}",
+
+  "Constraint.Date.InexactDate": "Datum moet ${min-date} zijn",
+  "Constraint.Number.InexactNumber": "Moet ${number} zijn.",
+
+  "Constraint.TimeRange.InvalidRangeInclusive": "Begintijd moet voor of gelijk zijn aan de eindtijd",
+  "Constraint.DateRange.InvalidRangeInclusive": "Begindatum moet voor of gelijk zijn aan de einddatum",
+  "Constraint.DateTimeRange.InvalidRangeInclusive": "Beginwaarde moet voor of gelijk zijn aan de eindwaarde",
+  "Constraint.TimeStampRange.InvalidRangeInclusive": "Beginwaarde moet voor of gelijk zijn aan de eindwaarde",
+  "Constraint.NumberRange.InvalidRangeInclusive": "Beginwaarde moet kleiner zijn dan of gelijk zijn aan de eindwaarde",
+
+  "Constraint.File.MaxFileSize": "Maximale bestandsgroote is ${max-filesize}",
+  "Constraint.File.MaxTotalFileSize": "{filesize-left} van {max-total-filesize} over van totaal toegestaan upload bestandsgrootte",
+  "Constraint.File.MaxTotalFileSizeExceeded": "Bestandsgrootte van {total-filesize} overschrijdt de resterende bestandsgrootte van {max-filesize-left}",
+
+  "Constraint.XML.InvalidFormat": "Moet een geldig XML structuur zijn",
+
+  "Constraint.Number.GroupingSeparator": "Groepscheidingsteken '${group-divider}' moet correct worden geplaatst",
+
+  "Password.Confirm.Label": "Bevestig ${label}",
+
+  "Constraint.Password.ConfirmMismatch": "Moet overeenkomen met ${other} veld",
+
+  "DynamicProcessTaskGroup.Required": "Vereist",
+  "DynamicProcessTaskGroup.Optional": "Niet vereist",
+  "DynamicProcessTaskGroup.Completed": "Voltooid",
+
+  "ProcessIcon.LockDescription": "Taak is van toepassing, u bent niet geautoriseerd",
+
+  "InlineEdit.CancelEdit": "Annuleren",
+  "InlineEdit.CloneRow": "Dupliceren",
+  "InlineEdit.DeleteRow": "Verwijderen",
+  "InlineEdit.RowInError": "Bevat fouten",
+  "InlineEdit.SaveInProgress": "Bezig met opslaan",
+  "InlineEdit.SaveRow": "Opslaan",
+
+  "Error.CannotRequestResource": "Er was een probleem bij het opvragen van een resource",
+
+  "CaseViewButton.label": "Open case",
+
+  "ConfirmDialog.ConfirmQuestion": "Weet u het zeker?",
+  "ConfirmDialogButtons.Cancel": "Annuleren",
+  "ConfirmDialogButtons.Confirm": "Bevestigen",
+
+  "FormLabel.isOptional": "optioneel",
+  "FormLabel.isMandatory": "*"
+}

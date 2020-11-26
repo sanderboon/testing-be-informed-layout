@@ -1,0 +1,59 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch BeInformed in Chrome",
+      "url": "http://localhost:18080/BeInformed",
+      "urlFilter": "localhost:*/BeInformed/*",
+      "userDataDir": "/tmp/chrome-debug",
+      "webRoot": "${workspaceFolder}/WEB-INF",
+      "smartStep": true,
+      "sourceMaps": true,
+      "sourceMapPathOverrides": {
+        "webpack://BeInformed/./*": "${workspaceFolder}/*"
+      }
+    },
+    {
+      "type": "chrome",
+      "request": "attach",
+      "name": "Attach BeInformed in Chrome",
+      "port": 9222,
+      "webRoot": "${workspaceFolder}/WEB-INF",
+      "urlFilter": "localhost:*/BeInformed/*",
+      "smartStep": true,
+      "sourceMaps": true,
+      "sourceMapPathOverrides": {
+        "webpack://BeInformed/./*": "${workspaceFolder}/*"
+      }
+    },
+    {
+      "type": "node",
+      "name": "Launch Jest tests",
+      "request": "launch",
+      "args": ["--runInBand"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "disableOptimisticBPs": true,
+      "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Jest test - current file",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": ["${fileBasenameNoExtension}", "--config", "jest.config.js"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "disableOptimisticBPs": true,
+      "windows": {
+        "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+      }
+    }
+  ]
+}

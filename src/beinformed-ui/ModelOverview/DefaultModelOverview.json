@@ -1,0 +1,101 @@
+{
+  "overviews": [
+    {
+      "key": "BMO",
+      "label": "Business model overview",
+      "lanes": [
+        {
+          "key": "role",
+          "label": "Role",
+          "conceptTypes": [
+            "/Library/KMTs/Interaction.bixml/UserRole",
+            "/Library/KMTs/Interaction.bixml/OrganizationRole",
+            "/Library/KMTs/Interaction.bixml/ExternalSystem"
+          ]
+        },
+        {
+          "key": "channel",
+          "label": "Channel",
+          "conceptTypes": [
+            "/Library/KMTs/Interaction.bixml/Portal",
+            "/Library/KMTs/Interaction.bixml/Service",
+            "/Library/KMTs/Interaction.bixml/OtherChannel"
+          ]
+        },
+        {
+          "key": "product",
+          "label": "Product",
+          "conceptTypes": ["/Library/KMTs/Products.bixml/Product"]
+        },
+        {
+          "key": "case",
+          "label": "Case",
+          "conceptTypes": ["/Library/KMTs/Case Management.bixml/Case"]
+        },
+        {
+          "key": "register",
+          "label": "Register",
+          "conceptTypes": ["/Library/KMTs/Registration.bixml/Register"]
+        }
+      ]
+    },
+    {
+      "key": "TOM",
+      "label": "Target operating model",
+      "lanes": [
+        {
+          "key": "context",
+          "label": "Customer segment",
+          "conceptTypes": [
+            "/Library/KMTs/Business architecture.bixml/CustomerSegment",
+            "/Library/KMTs/Interaction.bixml/Role",
+            "/Library/KMTs/Interaction.bixml/UserRole",
+            "/Library/KMTs/Interaction.bixml/OrganizationRole",
+            "/Library/KMTs/Interaction.bixml/ExternalSystem"
+          ]
+        },
+        {
+          "keY": "interaction",
+          "label": "Interaction channel",
+          "conceptTypes": [
+            "/Library/KMTs/Business architecture.bixml/InteractionChannel",
+            "/Library/KMTs/Interaction.bixml/Portal",
+            "/Library/KMTs/Interaction.bixml/Service",
+            "/Library/KMTs/Interaction.bixml/OtherChannel"
+          ]
+        },
+        {
+          "key": "products",
+          "label": "Product family",
+          "conceptTypes": [
+            "/Library/KMTs/Business architecture.bixml/ProductFamily",
+            "/Library/KMTs/Products.bixml/Product"
+          ]
+        },
+        {
+          "key": "shared",
+          "label": "Shared policy",
+          "conceptTypes": [
+            "/Library/KMTs/Business architecture.bixml/SharedPolicy"
+          ]
+        },
+        {
+          "key": "businessfunctions",
+          "label": "Business function",
+          "conceptTypes": [
+            "/Library/KMTs/Business architecture.bixml/BusinessFunction",
+            "/Library/KMTs/Case Management.bixml/Case"
+          ]
+        },
+        {
+          "key": "register",
+          "label": "Registration function",
+          "conceptTypes": [
+            "/Library/KMTs/Business architecture.bixml/RegistrationFunction",
+            "/Library/KMTs/Registration.bixml/Register"
+          ]
+        }
+      ]
+    }
+  ]
+}

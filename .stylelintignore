@@ -1,0 +1,10 @@
+**/_PLUGIN/**
+**/_storybook/**
+**/coverage/**
+**/flow/**
+**/jest/**
+**/META-INF/**
+**/node/**
+**/node_modules/**
+**/target/**
+**/WEB-INF/**

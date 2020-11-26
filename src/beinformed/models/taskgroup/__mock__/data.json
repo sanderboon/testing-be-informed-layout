@@ -1,0 +1,21 @@
+{
+  "taskgroup": {
+    "_links": {
+      "self": { "href": "/books/GeneralTasks" },
+      "api_doc": { "href": "/api-docs/v3/books/GeneralTasks" },
+      "contributions": { "href": "/contributions/books/GeneralTasks" }
+    },
+    "actions": [
+      {
+        "name": "CreatePersonRef",
+        "method": "POST",
+        "href": "/books/GeneralTasks/CreatePersonRef"
+      },
+      {
+        "name": "UpdatePasswordOfCurrentUser_ref",
+        "method": "POST",
+        "href": "/books/GeneralTasks/UpdatePasswordOfCurrentUser_ref"
+      }
+    ]
+  }
+}

@@ -1,0 +1,317 @@
+
+{
+  "webapplication": {
+    "label": "Webapp",
+    "resourcetype": "Application",
+    "_links": {
+      "tab": [
+        {
+          "name": "Books",
+          "label": "Books",
+          "resourcetype": "CaseTab",
+          "components": [
+            {
+              "name": "Books",
+              "label": "Books",
+              "layouthint": [
+                "CardView",
+                "ListView",
+                "TableView"
+              ],
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksByPersonRole",
+              "label": "Books by person role",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BookPrints",
+              "label": "Book prints",
+              "resourcetype": "DatastoreList"
+            },
+            {
+              "name": "LatestBooks",
+              "label": "Latest books",
+              "resourcetype": "DatastoreList"
+            }
+          ]
+        },
+        {
+          "name": "Persons",
+          "label": "Persons",
+          "resourcetype": "CaseTab",
+          "components": [
+            {
+              "name": "Persons",
+              "label": "Persons",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "AuthorsAndCo_authors",
+              "label": "Authors and co-authors",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "InformationAboutAuthors",
+              "label": "Information about authors",
+              "resourcetype": "DatastoreList"
+            }
+          ]
+        },
+        {
+          "name": "PublishingHouses",
+          "label": "Publishing houses",
+          "resourcetype": "CaseTab",
+          "components": [
+            {
+              "name": "PublishingHouses",
+              "label": "Publishing houses",
+              "resourcetype": "CaseList"
+            }
+          ]
+        },
+        {
+          "name": "UT_Books",
+          "label": "UT_Books",
+          "resourcetype": "CaseTab",
+          "components": [
+            {
+              "name": "Books",
+              "label": "Books",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksByPerson",
+              "label": "Books by person",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksByPersonAndFormat",
+              "label": "Books by person and format",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksByPersonRoleAndFormat",
+              "label": "Books by person role and format",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksByPersonByLanguage",
+              "label": "Books by person by language",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksByFormat",
+              "label": "Books by format",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksByPublishingHouse",
+              "label": "Books by publishing house",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksByYoungAuthors",
+              "label": "Books by young authors",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksByYoungAuthorsNamedCoupland",
+              "label": "Books by young authors named Coupland",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksPublishedByPublishingHouseLocatedInLondon",
+              "label": "Books published by publishing house located in London",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksWithPublishingHouseCategoryYoungAdults",
+              "label": "Books with publishing house category Young adults",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksByDeceasedAuthors",
+              "label": "Books by deceased authors",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksWithLargeEditions",
+              "label": "Books with large editions",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksWithPrintAssignments",
+              "label": "Books with print assignments",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksFromAuthorsFromNewYork",
+              "label": "Books from authors from New York",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksByAuthorFromNewYork",
+              "label": "Books by author from New York",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BookPrints",
+              "label": "Book prints",
+              "resourcetype": "DatastoreList"
+            },
+            {
+              "name": "LatestBooks",
+              "label": "Latest books",
+              "resourcetype": "DatastoreList"
+            },
+            {
+              "name": "LatestBooksMultipleRecordTypes",
+              "label": "Latest books multiple record types",
+              "resourcetype": "DatastoreList"
+            }
+          ]
+        },
+        {
+          "name": "UT_Persons",
+          "label": "UT_Persons",
+          "resourcetype": "CaseTab",
+          "components": [
+            {
+              "name": "Persons",
+              "label": "Persons",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "PersonsWithDetails",
+              "label": "Persons with details",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "PersonsByBookIndividual",
+              "label": "Persons by book (individual)",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "PersonsByBookDistinct",
+              "label": "Persons by book (distinct)",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "AuthorsByBookIndividual",
+              "label": "Authors by book (individual)",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "PersonsWithBooks",
+              "label": "Persons with books",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "PersonsLivingInLondon",
+              "label": "Persons living in London",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "AuthorsLivingInNewYork",
+              "label": "Authors living in New York",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "BooksAndPersonsRestrictedToNewYork",
+              "label": "Books and Persons restricted to New York",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "AuthorsByPublishingHouseFromLonden",
+              "label": "Authors by Publishing house from Londen",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "AuthorsByPublishingHouseFromLondenOrNrOfPages350",
+              "label": "Authors by Publishing house from Londen or Nr of Pages > 350",
+              "resourcetype": "CaseList"
+            },
+            {
+              "name": "AuthorsWithBooksWithEditionPublishedAfter2013",
+              "label": "Authors with books with edition published after 2013",
+              "resourcetype": "CaseList"
+            }
+          ]
+        },
+        {
+          "name": "UT_PublishingHouses",
+          "label": "UT_Publishing houses",
+          "resourcetype": "CaseTab",
+          "components": [
+            {
+              "name": "PublishingHouses",
+              "label": "Publishing houses",
+              "resourcetype": "CaseList"
+            }
+          ]
+        },
+        {
+          "name": "UTBookPrints",
+          "label": "UT Book prints",
+          "resourcetype": "GenericTab",
+          "components": [
+            {
+              "name": "BookPrints",
+              "label": "Book prints",
+              "resourcetype": "DatastoreList"
+            },
+            {
+              "name": "BookPrintsOnePerPage",
+              "label": "Book prints (one per page)",
+              "resourcetype": "DatastoreList"
+            },
+            {
+              "name": "BookPrintsMaxOneResultInDetailMode",
+              "label": "Book prints (max one result in detail mode)",
+              "resourcetype": "DatastoreList"
+            },
+            {
+              "name": "BookPrintsMaxOneResultInTableMode",
+              "label": "Book prints (max one result in table mode)",
+              "resourcetype": "DatastoreList"
+            },
+            {
+              "name": "BookPrintsSortedByPrintingHouse",
+              "label": "Book prints (sorted by printing house)",
+              "resourcetype": "DatastoreList"
+            },
+            {
+              "name": "BookPrintsGroupedByBooksPrintedPrintingHouse",
+              "label": "Book prints (grouped by BooksPrinted, Printing house)",
+              "resourcetype": "DatastoreList"
+            }
+          ]
+        },
+        {
+          "name": "UsersAndOrganizations",
+          "label": "Users and organizations",
+          "resourcetype": "GenericTab"
+        },
+        {
+          "name": "RebuildDB",
+          "label": "Rebuild DB",
+          "resourcetype": "CaseTab"
+        }
+      ],
+      "authentication": [
+        {
+          "name": "login",
+          "label": "Login",
+          "resourcetype": null
+        },
+        {
+          "name": "UserServices",
+          "label": "Gebruikerservices",
+          "resourcetype": "user_services"
+        }
+      ]
+    }
+  }
+}

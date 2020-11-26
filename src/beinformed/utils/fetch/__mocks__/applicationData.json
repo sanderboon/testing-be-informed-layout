@@ -1,0 +1,216 @@
+{
+  "webapplication": {
+    "_links": {
+      "self": { "href": "/" },
+      "api_doc": { "href": "/api-docs/v3/" },
+      "contributions": { "href": "/contributions/" },
+      "modelcatalog": { "href": "/modelcatalog" },
+      "tab": [
+        {
+          "href": "/books",
+          "name": "Books",
+          "components": [
+            { "href": "/books/books", "name": "Books" },
+            { "href": "/books/booksbypersonrole", "name": "BooksByPersonRole" },
+            { "href": "/books/BookPrints", "name": "BookPrints" },
+            { "href": "/books/LatestBooks", "name": "LatestBooks" }
+          ]
+        },
+        {
+          "href": "/persons",
+          "name": "Persons",
+          "components": [
+            { "href": "/persons/persons", "name": "Persons" },
+            {
+              "href": "/persons/authorscoauthors",
+              "name": "AuthorsAndCo_authors"
+            },
+            {
+              "href": "/persons/InformationAboutAuthors",
+              "name": "InformationAboutAuthors"
+            }
+          ]
+        },
+        {
+          "href": "/publishinghouses",
+          "name": "PublishingHouses",
+          "components": [
+            {
+              "href": "/publishinghouses/publishinghouses",
+              "name": "PublishingHouses"
+            }
+          ]
+        },
+        {
+          "href": "/UT_books",
+          "name": "UT_Books",
+          "components": [
+            { "href": "/UT_books/books", "name": "Books" },
+            { "href": "/UT_books/booksbyperson", "name": "BooksByPerson" },
+            {
+              "href": "/UT_books/Booksbypersonandformat",
+              "name": "BooksByPersonAndFormat"
+            },
+            {
+              "href": "/UT_books/Booksbypersonroleandformat",
+              "name": "BooksByPersonRoleAndFormat"
+            },
+            {
+              "href": "/UT_books/booksbypersonbylanguage",
+              "name": "BooksByPersonByLanguage"
+            },
+            { "href": "/UT_books/byformat", "name": "BooksByFormat" },
+            {
+              "href": "/UT_books/booksbypublishinghouse",
+              "name": "BooksByPublishingHouse"
+            },
+            {
+              "href": "/UT_books/booksbyyoungauthors",
+              "name": "BooksByYoungAuthors"
+            },
+            {
+              "href": "/UT_books/booksbyyoungauthorsnamedcoupland",
+              "name": "BooksByYoungAuthorsNamedCoupland"
+            },
+            {
+              "href": "/UT_books/bookspublishedbypublishinghouselocatedinlondon",
+              "name": "BooksPublishedByPublishingHouseLocatedInLondon"
+            },
+            {
+              "href": "/UT_books/bookswithpublishinghousecategoryyoungddults",
+              "name": "BooksWithPublishingHouseCategoryYoungAdults"
+            },
+            {
+              "href": "/UT_books/booksbydeceasedauthors",
+              "name": "BooksByDeceasedAuthors"
+            },
+            {
+              "href": "/UT_books/bookswithlargeeditions",
+              "name": "BooksWithLargeEditions"
+            },
+            {
+              "href": "/UT_books/bookswithprintassignments",
+              "name": "BooksWithPrintAssignments"
+            },
+            {
+              "href": "/UT_books/BooksFromAuthorsFromNewYork",
+              "name": "BooksFromAuthorsFromNewYork"
+            },
+            {
+              "href": "/UT_books/booksbyauthorfromnewyork",
+              "name": "BooksByAuthorFromNewYork"
+            },
+            { "href": "/UT_books/BookPrints", "name": "BookPrints" },
+            { "href": "/UT_books/LatestBooks", "name": "LatestBooks" },
+            {
+              "href": "/UT_books/LatestBooksmultipleRecordTypes",
+              "name": "LatestBooksMultipleRecordTypes"
+            }
+          ]
+        },
+        {
+          "href": "/UT_persons",
+          "name": "UT_Persons",
+          "components": [
+            { "href": "/UT_persons/persons", "name": "Persons" },
+            { "href": "/UT_persons/details", "name": "PersonsWithDetails" },
+            {
+              "href": "/UT_persons/personsByBookIndividual",
+              "name": "PersonsByBookIndividual"
+            },
+            {
+              "href": "/UT_persons/personsByBookDistinct",
+              "name": "PersonsByBookDistinct"
+            },
+            {
+              "href": "/UT_persons/authorsByBookIndividual",
+              "name": "AuthorsByBookIndividual"
+            },
+            {
+              "href": "/UT_persons/PersonsWithBooks",
+              "name": "PersonsWithBooks"
+            },
+            {
+              "href": "/UT_persons/personslivinginlondon",
+              "name": "PersonsLivingInLondon"
+            },
+            {
+              "href": "/UT_persons/authorslivinginnewyork",
+              "name": "AuthorsLivingInNewYork"
+            },
+            {
+              "href": "/UT_persons/booksandpersonsrestrictedtonewyork",
+              "name": "BooksAndPersonsRestrictedToNewYork"
+            },
+            {
+              "href": "/UT_persons/authorsbypublishinghousefromlonden",
+              "name": "AuthorsByPublishingHouseFromLonden"
+            },
+            {
+              "href": "/UT_persons/authorsbypublishinghousefromlondenornrofpages350",
+              "name": "AuthorsByPublishingHouseFromLondenOrNrOfPages350"
+            },
+            {
+              "href": "/UT_persons/authorswithbookswitheditionpublishedafter2013",
+              "name": "AuthorsWithBooksWithEditionPublishedAfter2013"
+            }
+          ]
+        },
+        {
+          "href": "/UT_publishinghouses",
+          "name": "UT_PublishingHouses",
+          "components": [
+            {
+              "href": "/UT_publishinghouses/publishinghouses",
+              "name": "PublishingHouses"
+            }
+          ]
+        },
+        {
+          "href": "/UT_bookPrints",
+          "name": "UTBookPrints",
+          "components": [
+            { "href": "/UT_bookPrints/BookPrints", "name": "BookPrints" },
+            {
+              "href": "/UT_bookPrints/BookPrints1PP",
+              "name": "BookPrintsOnePerPage"
+            },
+            {
+              "href": "/UT_bookPrints/BookPrintsMax1DetailMode",
+              "name": "BookPrintsMaxOneResultInDetailMode"
+            },
+            {
+              "href": "/UT_bookPrints/BookPrintsMax1TableMode",
+              "name": "BookPrintsMaxOneResultInTableMode"
+            },
+            {
+              "href": "/UT_bookPrints/BookPrintsSortedByPrintingHouse",
+              "name": "BookPrintsSortedByPrintingHouse"
+            },
+            {
+              "href": "/UT_bookPrints/BookPrintsByNumberAndHouse",
+              "name": "BookPrintsGroupedByBooksPrintedPrintingHouse"
+            }
+          ]
+        },
+        {
+          "href": "/users-and-organizations",
+          "name": "UsersAndOrganizations",
+          "components": [
+            {
+              "href": "/users-and-organizations/user-management",
+              "name": "UserManagement"
+            },
+            {
+              "href": "/users-and-organizations/organization-management",
+              "name": "OrganizationManagement"
+            }
+          ]
+        },
+        { "href": "/RebuildDB", "name": "RebuildDB" }
+      ],
+      "login": { "href": "/login" },
+      "user_services": [{ "href": "/Login", "name": "UserServices" }]
+    }
+  }
+}

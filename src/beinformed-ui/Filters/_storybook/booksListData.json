@@ -1,0 +1,1068 @@
+{
+  "Books": {
+    "_links": {
+      "self": { "href": "/books/books" },
+      "api_doc": { "href": "/api-docs/v3/books/books" },
+      "contributions": { "href": "/contributions/books/books" }
+    },
+    "actions": [
+      {
+        "name": "create-book",
+        "method": "POST",
+        "href": "/books/books/create-book"
+      }
+    ],
+    "filter": {
+      "Title": { "param": "Title", "name": "Title" },
+      "Format": {
+        "param": "Format",
+        "name": "Format",
+        "options": [
+          { "key": "Hardcover", "count": 11 },
+          { "key": "Paperback", "count": 18 },
+          { "key": "Ebook", "count": 1 },
+          { "key": "Audio", "count": 2 }
+        ]
+      },
+      "Language": {
+        "param": "Language",
+        "name": "Language",
+        "options": [
+          { "key": "EN", "count": 26 },
+          { "key": "DU", "count": 6 }
+        ]
+      },
+      "rangeNumberOfPages": {
+        "name": "rangeNumberOfPages",
+        "startNumber": { "param": "NumberOfPages" },
+        "endNumber": { "param": "endNumberOfPages" }
+      },
+      "C1_1_Name": { "param": "C1_1_Name", "name": "C1_1_Name" },
+      "C2_1_Name": { "param": "C2_1_Name", "name": "C2_1_Name" },
+      "AssignmentsBooks": {
+        "name": "AssignmentsBooks",
+        "USERKEY": {
+          "param": "USERKEY",
+          "name": "USERKEY",
+          "_links": {
+            "lookupOptions": {
+              "href": "/lookupOptions?lookupToken=48beae34-a546-4548-b266-0bd24b8e35a0",
+              "filter": { "name": "labelFilter" }
+            }
+          }
+        },
+        "ASSIGNMENTTYPE": {
+          "param": "ASSIGNMENTTYPE",
+          "name": "ASSIGNMENTTYPE",
+          "options": [{ "key": "Practitioner" }]
+        }
+      }
+    },
+    "paging": { "totalresults": 32, "pagesize": 20, "page": 1, "maxpages": 2 },
+    "sorting": "ID asc",
+    "_embedded": {
+      "results": [
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/24/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/24/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/24/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/24/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/24/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/24/delete-book"
+              }
+            ],
+            "_id": 24,
+            "_links": {
+              "self": { "href": "/books/book/24" },
+              "Contributors": { "href": "/books/books/24/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/24/published-by-publishing-house"
+              }
+            },
+            "Title": "The safety of objects",
+            "NumberOfPages": 176,
+            "Format": "Paperback",
+            "Language": "EN",
+            "ISBN10": "1847087302",
+            "ISBN13": "9781847087300"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/25/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/25/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/25/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/25/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/25/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/25/delete-book"
+              }
+            ],
+            "_id": 25,
+            "_links": {
+              "self": { "href": "/books/book/25" },
+              "Contributors": { "href": "/books/books/25/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/25/published-by-publishing-house"
+              }
+            },
+            "Title": "The BFG",
+            "NumberOfPages": 207,
+            "Format": "Paperback",
+            "Language": "EN",
+            "ISBN10": "0142410381",
+            "ISBN13": "9780142410387"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/26/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/26/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/26/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/26/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/26/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/26/delete-book"
+              }
+            ],
+            "_id": 26,
+            "_links": {
+              "self": { "href": "/books/book/26" },
+              "Contributors": { "href": "/books/books/26/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/26/published-by-publishing-house"
+              }
+            },
+            "Title": "Matilda",
+            "NumberOfPages": 256,
+            "Format": "Paperback",
+            "Language": "EN",
+            "ISBN10": "0141346345",
+            "ISBN13": "9780141346342"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/27/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/27/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/27/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/27/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/27/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/27/delete-book"
+              }
+            ],
+            "_id": 27,
+            "_links": {
+              "self": { "href": "/books/book/27" },
+              "Contributors": { "href": "/books/books/27/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/27/published-by-publishing-house"
+              }
+            },
+            "Title": "Zagazoo",
+            "NumberOfPages": 32,
+            "Format": "Hardcover",
+            "Language": "EN",
+            "ISBN10": "099265346X",
+            "ISBN13": "9780099265344"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/28/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/28/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/28/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/28/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/28/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/28/delete-book"
+              }
+            ],
+            "_id": 28,
+            "_links": {
+              "self": { "href": "/books/book/28" },
+              "Contributors": { "href": "/books/books/28/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/28/published-by-publishing-house"
+              }
+            },
+            "Title": "This book will save your live",
+            "NumberOfPages": 380,
+            "Format": "Paperback",
+            "Language": "EN",
+            "ISBN10": "1862079331",
+            "ISBN13": "9781862079335"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/29/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/29/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/29/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/29/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/29/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/29/delete-book"
+              }
+            ],
+            "_id": 29,
+            "_links": {
+              "self": { "href": "/books/book/29" },
+              "Contributors": { "href": "/books/books/29/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/29/published-by-publishing-house"
+              }
+            },
+            "Title": "Revival",
+            "NumberOfPages": 384,
+            "Format": "Hardcover",
+            "Language": "EN",
+            "ISBN10": "1444789171",
+            "ISBN13": "9781444789171"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/30/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/30/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/30/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/30/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/30/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/30/delete-book"
+              }
+            ],
+            "_id": 30,
+            "_links": {
+              "self": { "href": "/books/book/30" },
+              "Contributors": { "href": "/books/books/30/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/30/published-by-publishing-house"
+              }
+            },
+            "Title": "Revival",
+            "NumberOfPages": 512,
+            "Format": "Hardcover",
+            "Language": "EN",
+            "ISBN10": "1476770387",
+            "ISBN13": "9781476770383"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/31/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/31/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/31/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/31/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/31/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/31/delete-book"
+              }
+            ],
+            "_id": 31,
+            "_links": {
+              "self": { "href": "/books/book/31" },
+              "Contributors": { "href": "/books/books/31/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/31/published-by-publishing-house"
+              }
+            },
+            "Title": "Under the dome",
+            "NumberOfPages": 1074,
+            "Format": "Hardcover",
+            "Language": "EN",
+            "ISBN10": "1476754454",
+            "ISBN13": "9781476754451"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/32/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/32/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/32/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/32/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/32/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/32/delete-book"
+              }
+            ],
+            "_id": 32,
+            "_links": {
+              "self": { "href": "/books/book/32" },
+              "Contributors": { "href": "/books/books/32/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/32/published-by-publishing-house"
+              }
+            },
+            "Title": "Under the dome",
+            "NumberOfPages": 12,
+            "Format": "Audio",
+            "Language": "EN",
+            "ISBN10": "0144236548",
+            "ISBN13": "9781442365483"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/33/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/33/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/33/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/33/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/33/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/33/delete-book"
+              }
+            ],
+            "_id": 33,
+            "_links": {
+              "self": { "href": "/books/book/33" },
+              "Contributors": { "href": "/books/books/33/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/33/published-by-publishing-house"
+              }
+            },
+            "Title": "Battleborn",
+            "NumberOfPages": 304,
+            "Format": "Paperback",
+            "Language": "EN",
+            "ISBN10": "1847084877",
+            "ISBN13": "9781847084873"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/34/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/34/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/34/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/34/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/34/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/34/delete-book"
+              }
+            ],
+            "_id": 34,
+            "_links": {
+              "self": { "href": "/books/book/34" },
+              "Contributors": { "href": "/books/books/34/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/34/published-by-publishing-house"
+              }
+            },
+            "Title": "Highly Inappropriate Tales for Young People",
+            "NumberOfPages": 144,
+            "Format": "Hardcover",
+            "Language": "EN",
+            "ISBN10": "434021598X",
+            "ISBN13": "9780434021598"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/35/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/35/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/35/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/35/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/35/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/35/delete-book"
+              }
+            ],
+            "_id": 35,
+            "_links": {
+              "self": { "href": "/books/book/35" },
+              "Contributors": { "href": "/books/books/35/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/35/published-by-publishing-house"
+              }
+            },
+            "Title": "Worst. Person. Ever.",
+            "NumberOfPages": 336,
+            "Format": "Hardcover",
+            "Language": "EN",
+            "ISBN10": "0434019909",
+            "ISBN13": "9780434019908"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/36/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/36/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/36/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/36/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/36/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/36/delete-book"
+              }
+            ],
+            "_id": 36,
+            "_links": {
+              "self": { "href": "/books/book/36" },
+              "Contributors": { "href": "/books/books/36/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/36/published-by-publishing-house"
+              }
+            },
+            "Title": "The age of Earthquakes",
+            "NumberOfPages": 256,
+            "Format": "Paperback",
+            "Language": "EN",
+            "ISBN10": "0141979569",
+            "ISBN13": "9780141979564"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/37/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/37/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/37/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/37/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/37/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/37/delete-book"
+              }
+            ],
+            "_id": 37,
+            "_links": {
+              "self": { "href": "/books/book/37" },
+              "Contributors": { "href": "/books/books/37/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/37/published-by-publishing-house"
+              }
+            },
+            "Title": "Player one",
+            "NumberOfPages": 256,
+            "Format": "Paperback",
+            "Language": "EN",
+            "ISBN10": "0099538180",
+            "ISBN13": "9780099538189"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/38/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/38/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/38/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/38/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/38/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/38/delete-book"
+              }
+            ],
+            "_id": 38,
+            "_links": {
+              "self": { "href": "/books/book/38" },
+              "Contributors": { "href": "/books/books/38/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/38/published-by-publishing-house"
+              }
+            },
+            "Title": "The New York Trilogy",
+            "NumberOfPages": 320,
+            "Format": "Paperback",
+            "Language": "EN",
+            "ISBN10": "0571276555",
+            "ISBN13": "9780571276554"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/39/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/39/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/39/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/39/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/39/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/39/delete-book"
+              }
+            ],
+            "_id": 39,
+            "_links": {
+              "self": { "href": "/books/book/39" },
+              "Contributors": { "href": "/books/books/39/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/39/published-by-publishing-house"
+              }
+            },
+            "Title": "The New York Trilogy",
+            "NumberOfPages": 308,
+            "Format": "Paperback",
+            "Language": "EN",
+            "ISBN10": "0143039830",
+            "ISBN13": "9780143039839"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/40/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/40/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/40/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/40/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/40/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/40/delete-book"
+              }
+            ],
+            "_id": 40,
+            "_links": {
+              "self": { "href": "/books/book/40" },
+              "Contributors": { "href": "/books/books/40/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/40/published-by-publishing-house"
+              }
+            },
+            "Title": "De New York-trilogie",
+            "NumberOfPages": 358,
+            "Format": "Paperback",
+            "Language": "DU",
+            "ISBN10": "9023487060",
+            "ISBN13": "9789023487067"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/41/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/41/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/41/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/41/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/41/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/41/delete-book"
+              }
+            ],
+            "_id": 41,
+            "_links": {
+              "self": { "href": "/books/book/41" },
+              "Contributors": { "href": "/books/books/41/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/41/published-by-publishing-house"
+              }
+            },
+            "Title": "Onzichtbaar",
+            "NumberOfPages": 240,
+            "Format": "Hardcover",
+            "Language": "DU",
+            "ISBN10": "9029571624",
+            "ISBN13": "9789029571623"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/42/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/42/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/42/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/42/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/42/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/42/delete-book"
+              }
+            ],
+            "_id": 42,
+            "_links": {
+              "self": { "href": "/books/book/42" },
+              "Contributors": { "href": "/books/books/42/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/42/published-by-publishing-house"
+              }
+            },
+            "Title": "Revolutionary Road",
+            "NumberOfPages": 337,
+            "Format": "Paperback",
+            "Language": "EN",
+            "ISBN10": "0375708448",
+            "ISBN13": "9780375708442"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/43/update-book"
+              },
+              {
+                "name": "add-author",
+                "method": "POST",
+                "href": "/books/books/43/add-author"
+              },
+              {
+                "name": "add-co-author",
+                "method": "POST",
+                "href": "/books/books/43/add-co-author"
+              },
+              {
+                "name": "add-illustrator",
+                "method": "POST",
+                "href": "/books/books/43/add-illustrator"
+              },
+              {
+                "name": "add-edition",
+                "method": "POST",
+                "href": "/books/books/43/add-edition"
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/43/delete-book"
+              }
+            ],
+            "_id": 43,
+            "_links": {
+              "self": { "href": "/books/book/43" },
+              "Contributors": { "href": "/books/books/43/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/43/published-by-publishing-house"
+              }
+            },
+            "Title": "Revolutionary Road",
+            "NumberOfPages": 323,
+            "Format": "Paperback",
+            "Language": "DU",
+            "ISBN10": "9029574429",
+            "ISBN13": "9789029574426"
+          }
+        }
+      ]
+    }
+  }
+}

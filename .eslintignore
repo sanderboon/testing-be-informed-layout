@@ -1,0 +1,9 @@
+**/_PLUGIN/**
+**/coverage/**
+**/flow/**
+**/jest/**
+**/META-INF/**
+**/node/**
+**/node_modules/**
+**/target/**
+**/WEB-INF/**

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "checkJs": true,
+    "paths": {
+      "beinformed-ui/*": ["./src/beinformed-ui/*"],
+      "beinformed/*": ["./src/beinformed/*"],
+      "_component-registry/*": ["./src/_component-registry/*"],
+      "backoffice/*": ["./src/backoffice/*"],
+      "config/*": ["./src/config/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "WEB-INF", "_builder", "_design"]
+}

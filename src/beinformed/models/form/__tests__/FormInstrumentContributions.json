@@ -1,0 +1,183 @@
+{
+  "CalculateFee": {
+    "label": "Calculate fee",
+    "resourcetype": "Form",
+    "objects": {
+      "BerekenBoete": {
+        "dynamicObject": true,
+        "repeatable": false,
+        "label": "Calculate fee",
+        "content": {
+          "questions": {
+            "questionElements": [
+              {
+                "labelElement": {
+                  "label": "Vraag labels",
+                  "labelTypes": ["question_label"]
+                }
+              },
+              {
+                "textFragmentElement": {
+                  "label": "Omschrijving",
+                  "textFragmentTypes": ["Description"],
+                  "layouthint": ["inline", "full-width"]
+                }
+              }
+            ],
+            "optionElements": []
+          },
+          "intermediateResults": {
+            "label": "Resultaten",
+            "attributes": [
+              "BoeteRijdenMetDrankOp",
+              "BoeteGeenGordel",
+              "BoeteTeHardRijden"
+            ],
+            "calculatedResultElements": [
+              {
+                "textFragmentElement": {
+                  "label": "Omschrijving",
+                  "textFragmentTypes": ["Description"],
+                  "layouthint": ["inline", "full-width"]
+                }
+              }
+            ],
+            "resultElements": []
+          },
+          "results": [
+            {
+              "calculatorResult": {
+                "label": "Resultaat",
+                "description": "<p>Hieronder is het resultaat te zien van uw totaal aan boetebedrag.</p>",
+                "attributes": ["TotaleBoeteBedrag"],
+                "resultElements": [
+                  {
+                    "contentElement": {
+                      "label": "Show Reference",
+                      "icon": "/resource/Incident/Content/fine.png",
+                      "sectionReferenceTypes": ["Reference"],
+                      "layouthint": [
+                        "inline",
+                        "render-section-label",
+                        "full-width"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "attributes": [
+          {
+            "KmhTeHard": {
+              "type": "number",
+              "label": "Kmh too fast",
+              "mandatory": false,
+              "decimalSeparator": ",",
+              "_links": {
+                "concept": {
+                  "href": "/concepts/Incident/Business design/Process elementen/Boete berekenen.bixml/KmhTeHard"
+                }
+              },
+              "format": "#.##",
+              "groupingSeparator": "."
+            }
+          },
+          {
+            "GordelOm": {
+              "type": "boolean",
+              "label": "Gordel om?",
+              "mandatory": false,
+              "_links": {
+                "concept": {
+                  "href": "/concepts/Incident/Business design/Process elementen/Boete berekenen.bixml/GordelOm"
+                }
+              },
+              "layouthint": ["radiobutton"]
+            }
+          },
+          {
+            "GemetenGl": {
+              "type": "number",
+              "label": "Measured G/l",
+              "mandatory": false,
+              "decimalSeparator": ",",
+              "_links": {
+                "concept": {
+                  "href": "/concepts/Incident/Business design/Process elementen/Boete berekenen.bixml/GemetenGl"
+                }
+              },
+              "format": "#.##",
+              "groupingSeparator": "."
+            }
+          },
+          {
+            "BoeteRijdenMetDrankOp": {
+              "type": "number",
+              "label": "Fee for drink and drive",
+              "mandatory": false,
+              "readonly": true,
+              "decimalSeparator": ",",
+              "_links": {
+                "concept": {
+                  "href": "/concepts/Incident/Business design/Process elementen/Boete berekenen.bixml/BoeteRijdenMetDrankOp"
+                }
+              },
+              "format": "#.##",
+              "groupingSeparator": "."
+            }
+          },
+          {
+            "BoeteGeenGordel": {
+              "type": "number",
+              "label": "Fee no seatbelt",
+              "mandatory": false,
+              "readonly": true,
+              "decimalSeparator": ",",
+              "_links": {
+                "concept": {
+                  "href": "/concepts/Incident/Business design/Process elementen/Boete berekenen.bixml/BoeteGeenGordel"
+                }
+              },
+              "format": "#.##",
+              "groupingSeparator": "."
+            }
+          },
+          {
+            "BoeteTeHardRijden": {
+              "type": "number",
+              "label": "Fee for speeding",
+              "mandatory": false,
+              "readonly": true,
+              "decimalSeparator": ",",
+              "_links": {
+                "concept": {
+                  "href": "/concepts/Incident/Business design/Process elementen/Boete berekenen.bixml/BoeteTeHardRijden"
+                }
+              },
+              "format": "#.##",
+              "groupingSeparator": "."
+            }
+          },
+          {
+            "TotaleBoeteBedrag": {
+              "type": "number",
+              "label": "Total fee",
+              "mandatory": false,
+              "readonly": true,
+              "decimalSeparator": ",",
+              "_links": {
+                "concept": {
+                  "href": "/concepts/Incident/Business design/Process elementen/Boete berekenen.bixml/TotaleBoeteBedrag"
+                }
+              },
+              "format": "#.##",
+              "groupingSeparator": "."
+            }
+          }
+        ]
+      }
+    }
+  }
+}

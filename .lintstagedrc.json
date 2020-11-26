@@ -1,0 +1,6 @@
+{
+  "*.{json,md}": ["prettier --write"],
+  "*.css": ["stylelint", "prettier --write"],
+  "*.scss": ["stylelint --syntax=scss", "prettier --write"],
+  "*.js": ["stylelint --allow-empty-input", "eslint", "prettier --write"]
+}

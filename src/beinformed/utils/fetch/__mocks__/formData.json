@@ -1,0 +1,21 @@
+{
+  "formresponse": {
+    "_links": {
+      "self": { "href": "/persons/persons/createperson" },
+      "api_doc": { "href": "/api-docs/v3/persons/persons/createperson" },
+      "contributions": { "href": "/contributions/persons/persons/createperson" }
+    },
+    "missing": {
+      "anchors": [
+        {
+          "objectid": "Person",
+          "elements": [
+            { "elementid": "Name" },
+            { "elementid": "DateOfBirth" },
+            { "elementid": "DateOfDeath" }
+          ]
+        }
+      ]
+    }
+  }
+}

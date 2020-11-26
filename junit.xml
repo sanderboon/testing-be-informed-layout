@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="366" failures="0" time="22.212">
+  <testsuite name="ListDetailModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:20" time="3.987" tests="1">
+    <testcase classname="ListDetailModel should be able to create an instance of ListDetailModel" name="ListDetailModel should be able to create an instance of ListDetailModel" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="Models" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:20" time="4.036" tests="2">
+    <testcase classname="Models Details DetailModel should be able to create an empty detail" name="Models Details DetailModel should be able to create an empty detail" time="0.009">
+    </testcase>
+    <testcase classname="Models Details DetailModel should be able to create a detail from a typical modular UI json structure" name="Models Details DetailModel should be able to create a detail from a typical modular UI json structure" time="0.027">
+    </testcase>
+  </testsuite>
+  <testsuite name="CaseViewModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:20" time="4.08" tests="2">
+    <testcase classname="CaseViewModel should be able to create an empty casedetail" name="CaseViewModel should be able to create an empty casedetail" time="0.008">
+    </testcase>
+    <testcase classname="CaseViewModel should be able to create a casedetail from a typical modular UI json structure" name="CaseViewModel should be able to create a casedetail from a typical modular UI json structure" time="0.025">
+    </testcase>
+  </testsuite>
+  <testsuite name="ListModel spec" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:20" time="4.413" tests="2">
+    <testcase classname="ListModel spec should be able to create an empty list" name="ListModel spec should be able to create an empty list" time="0.019">
+    </testcase>
+    <testcase classname="ListModel spec should be able to create a list from a typical modular ui response" name="ListModel spec should be able to create a list from a typical modular ui response" time="0.21">
+    </testcase>
+  </testsuite>
+  <testsuite name="ListHref" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:20" time="4.702" tests="3">
+    <testcase classname="ListHref should create an empty ListHref when no data is set" name="ListHref should create an empty ListHref when no data is set" time="0.228">
+    </testcase>
+    <testcase classname="ListHref should be able to change paging parameters" name="ListHref should be able to change paging parameters" time="0.142">
+    </testcase>
+    <testcase classname="ListHref should be able to change sorting parameters" name="ListHref should be able to change sorting parameters" time="0.118">
+    </testcase>
+  </testsuite>
+  <testsuite name="ModularuiUtils" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:20" time="4.975" tests="18">
+    <testcase classname="ModularuiUtils can create a key based on properties" name="ModularuiUtils can create a key based on properties" time="0.007">
+    </testcase>
+    <testcase classname="ModularuiUtils can retrieve the request url" name="ModularuiUtils can retrieve the request url" time="0.003">
+    </testcase>
+    <testcase classname="ModularuiUtils can determine if component should update" name="ModularuiUtils can determine if component should update" time="0.003">
+    </testcase>
+    <testcase classname="ModularuiUtils doesn&apos;t update during LOADING" name="ModularuiUtils doesn&apos;t update during LOADING" time="0">
+    </testcase>
+    <testcase classname="ModularuiUtils handles properties that change resource url" name="ModularuiUtils handles properties that change resource url" time="0.002">
+    </testcase>
+    <testcase classname="ModularuiUtils updates on status change" name="ModularuiUtils updates on status change" time="0">
+    </testcase>
+    <testcase classname="ModularuiUtils updates on model change" name="ModularuiUtils updates on model change" time="0.001">
+    </testcase>
+    <testcase classname="ModularuiUtils updates on hard reload" name="ModularuiUtils updates on hard reload" time="0.001">
+    </testcase>
+    <testcase classname="ModularuiUtils updates on location key change" name="ModularuiUtils updates on location key change" time="0">
+    </testcase>
+    <testcase classname="ModularuiUtils can determine if a model should be loaded" name="ModularuiUtils can determine if a model should be loaded" time="0.001">
+    </testcase>
+    <testcase classname="ModularuiUtils loads a model on hard reload" name="ModularuiUtils loads a model on hard reload" time="0.001">
+    </testcase>
+    <testcase classname="ModularuiUtils is not already loading the model" name="ModularuiUtils is not already loading the model" time="0.003">
+    </testcase>
+    <testcase classname="ModularuiUtils model load status is not in ERROR" name="ModularuiUtils model load status is not in ERROR" time="0">
+    </testcase>
+    <testcase classname="ModularuiUtils loads when model is not already present" name="ModularuiUtils loads when model is not already present" time="0.001">
+    </testcase>
+    <testcase classname="ModularuiUtils loads when url has changed" name="ModularuiUtils loads when url has changed" time="0">
+    </testcase>
+    <testcase classname="ModularuiUtils loads when the locale changes" name="ModularuiUtils loads when the locale changes" time="0.001">
+    </testcase>
+    <testcase classname="ModularuiUtils don&apos;t reload model when going from list page 2 to action on list item" name="ModularuiUtils don&apos;t reload model when going from list page 2 to action on list item" time="0">
+    </testcase>
+    <testcase classname="ModularuiUtils load model on initial status" name="ModularuiUtils load model on initial status" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="LinkModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:25" time="1.485" tests="3">
+    <testcase classname="LinkModel should be able to create an empty LinkModel object" name="LinkModel should be able to create an empty LinkModel object" time="0.001">
+    </testcase>
+    <testcase classname="LinkModel can create a LinkModel from modular ui" name="LinkModel can create a LinkModel from modular ui" time="0.003">
+    </testcase>
+    <testcase classname="LinkModel can create a LinkModel with children from modular ui" name="LinkModel can create a LinkModel with children from modular ui" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="ModularUIRequest" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:25" time="1.655" tests="4">
+    <testcase classname="ModularUIRequest can create an empty request" name="ModularUIRequest can create an empty request" time="0.048">
+    </testcase>
+    <testcase classname="ModularUIRequest can return a model from a request" name="ModularUIRequest can return a model from a request" time="0.009">
+    </testcase>
+    <testcase classname="ModularUIRequest can return a model from a cached request" name="ModularUIRequest can return a model from a cached request" time="0.002">
+    </testcase>
+    <testcase classname="ModularUIRequest can return a form model" name="ModularUIRequest can return a form model" time="0.018">
+    </testcase>
+  </testsuite>
+  <testsuite name="AttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:25" time="1.574" tests="12">
+    <testcase classname="AttributeModel should be able to create an empty AttributeModel object" name="AttributeModel should be able to create an empty AttributeModel object" time="0.011">
+    </testcase>
+    <testcase classname="AttributeModel should create Attribute from typical modular UI response" name="AttributeModel should create Attribute from typical modular UI response" time="0.04">
+    </testcase>
+    <testcase classname="AttributeModel Can set and get label" name="AttributeModel Can set and get label" time="0">
+    </testcase>
+    <testcase classname="AttributeModel can set and get inputvalues" name="AttributeModel can set and get inputvalues" time="0.001">
+    </testcase>
+    <testcase classname="AttributeModel Attribute with server error message" name="AttributeModel Attribute with server error message" time="0.002">
+    </testcase>
+    <testcase classname="AttributeModel can have a download link" name="AttributeModel can have a download link" time="0.003">
+    </testcase>
+    <testcase classname="AttributeModel Returns error information" name="AttributeModel Returns error information" time="0.003">
+    </testcase>
+    <testcase classname="AttributeModel Set changed since" name="AttributeModel Set changed since" time="0">
+    </testcase>
+    <testcase classname="AttributeModel Can set and get editable property" name="AttributeModel Can set and get editable property" time="0">
+    </testcase>
+    <testcase classname="AttributeModel Can indicate if it is a dependent question" name="AttributeModel Can indicate if it is a dependent question" time="0.001">
+    </testcase>
+    <testcase classname="AttributeModel Can handle concept and content links" name="AttributeModel Can handle concept and content links" time="0.003">
+    </testcase>
+    <testcase classname="AttributeModel Can handle concept (child)models" name="AttributeModel Can handle concept (child)models" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="AttributeSetModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:25" time="1.312" tests="1">
+    <testcase classname="AttributeSetModel should be able to create an empty AttributeSetModel object" name="AttributeSetModel should be able to create an empty AttributeSetModel object" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="ActionModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:25" time="1.364" tests="3">
+    <testcase classname="ActionModel should be able to create an empty ActionModel object" name="ActionModel should be able to create an empty ActionModel object" time="0.004">
+    </testcase>
+    <testcase classname="ActionModel can create empty action using createFromHref method" name="ActionModel can create empty action using createFromHref method" time="0.003">
+    </testcase>
+    <testcase classname="ActionModel can create an action" name="ActionModel can create an action" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="FormModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:26" time="1.112" tests="12">
+    <testcase classname="FormModel should be able to create an empty FormModel object" name="FormModel should be able to create an empty FormModel object" time="0.084">
+    </testcase>
+    <testcase classname="FormModel should be able to create a FormModel from missing information" name="FormModel should be able to create a FormModel from missing information" time="0.017">
+    </testcase>
+    <testcase classname="FormModel should be able to create a FormModel from missing error information" name="FormModel should be able to create a FormModel from missing error information" time="0.002">
+    </testcase>
+    <testcase classname="FormModel should be able to create a FormModel from error information" name="FormModel should be able to create a FormModel from error information" time="0.001">
+    </testcase>
+    <testcase classname="FormModel should be able to update an existing form model with error information" name="FormModel should be able to update an existing form model with error information" time="0.007">
+    </testcase>
+    <testcase classname="FormModel Can set parameters" name="FormModel Can set parameters" time="0.001">
+    </testcase>
+    <testcase classname="FormModel Can handle success response" name="FormModel Can handle success response" time="0.001">
+    </testcase>
+    <testcase classname="FormModel Should be able to handle xhr server errors" name="FormModel Should be able to handle xhr server errors" time="0.003">
+    </testcase>
+    <testcase classname="FormModel Should be able to handle errors on attributes" name="FormModel Should be able to handle errors on attributes" time="0.005">
+    </testcase>
+    <testcase classname="FormModel is able to update missing form response, mandatory server" name="FormModel is able to update missing form response, mandatory server" time="0.002">
+    </testcase>
+    <testcase classname="FormModel Is able to update from new form response" name="FormModel Is able to update from new form response" time="0.006">
+    </testcase>
+    <testcase classname="FormModel is able to get formdata for request" name="FormModel is able to get formdata for request" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="modularui" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:20" time="6.82" tests="1">
+    <testcase classname="modularui test1" name="modularui test1" time="0.222">
+    </testcase>
+  </testsuite>
+  <testsuite name="PanelCollection" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:27" time="1.034" tests="2">
+    <testcase classname="PanelCollection should be able to create an empty PanelCollection object" name="PanelCollection should be able to create an empty PanelCollection object" time="0.003">
+    </testcase>
+    <testcase classname="PanelCollection can hold a list panel" name="PanelCollection can hold a list panel" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="ChoiceAttributeOptionCollection" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:27" time="0.984" tests="6">
+    <testcase classname="ChoiceAttributeOptionCollection can handle simple options" name="ChoiceAttributeOptionCollection can handle simple options" time="0.02">
+    </testcase>
+    <testcase classname="ChoiceAttributeOptionCollection can handle boolean" name="ChoiceAttributeOptionCollection can handle boolean" time="0.002">
+    </testcase>
+    <testcase classname="ChoiceAttributeOptionCollection can handle taxonomy options" name="ChoiceAttributeOptionCollection can handle taxonomy options" time="0.001">
+    </testcase>
+    <testcase classname="ChoiceAttributeOptionCollection can handle dynamicschema" name="ChoiceAttributeOptionCollection can handle dynamicschema" time="0.002">
+    </testcase>
+    <testcase classname="ChoiceAttributeOptionCollection can handle table codemap single choice" name="ChoiceAttributeOptionCollection can handle table codemap single choice" time="0.025">
+    </testcase>
+    <testcase classname="ChoiceAttributeOptionCollection can handle table codemap multi choice" name="ChoiceAttributeOptionCollection can handle table codemap multi choice" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="ChoiceAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:27" time="1.033" tests="11">
+    <testcase classname="ChoiceAttributeModel should be able to create an empty AttributeModel object" name="ChoiceAttributeModel should be able to create an empty AttributeModel object" time="0.006">
+    </testcase>
+    <testcase classname="ChoiceAttributeModel can create a readonly choice attribute from a case property" name="ChoiceAttributeModel can create a readonly choice attribute from a case property" time="0.002">
+    </testcase>
+    <testcase classname="ChoiceAttributeModel should create a choice attribute for a boolean type" name="ChoiceAttributeModel should create a choice attribute for a boolean type" time="0.001">
+    </testcase>
+    <testcase classname="ChoiceAttributeModel should create choice Attribute from typical modular UI response" name="ChoiceAttributeModel should create choice Attribute from typical modular UI response" time="0.004">
+    </testcase>
+    <testcase classname="ChoiceAttributeModel should be able to enable and disable options" name="ChoiceAttributeModel should be able to enable and disable options" time="0.006">
+    </testcase>
+    <testcase classname="ChoiceAttributeModel should be able to create a checkbox list" name="ChoiceAttributeModel should be able to create a checkbox list" time="0.002">
+    </testcase>
+    <testcase classname="ChoiceAttributeModel can create a choice attribute model with a dynamicschema" name="ChoiceAttributeModel can create a choice attribute model with a dynamicschema" time="0.001">
+    </testcase>
+    <testcase classname="ChoiceAttributeModel can create a taxonomy choice attribute" name="ChoiceAttributeModel can create a taxonomy choice attribute" time="0.001">
+    </testcase>
+    <testcase classname="ChoiceAttributeModel can create a choice attribute from choice filter input" name="ChoiceAttributeModel can create a choice attribute from choice filter input" time="0.002">
+    </testcase>
+    <testcase classname="ChoiceAttributeModel Can handle concept links and content" name="ChoiceAttributeModel Can handle concept links and content" time="0.012">
+    </testcase>
+    <testcase classname="ChoiceAttributeModel Can handle concept (child)models" name="ChoiceAttributeModel Can handle concept (child)models" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="attributeVisibilityUtil" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:27" time="1.052" tests="6">
+    <testcase classname="attributeVisibilityUtil Parses dependent layout hints" name="attributeVisibilityUtil Parses dependent layout hints" time="0.02">
+    </testcase>
+    <testcase classname="attributeVisibilityUtil Returns visible when no visibility specific hint is set" name="attributeVisibilityUtil Returns visible when no visibility specific hint is set" time="0.006">
+    </testcase>
+    <testcase classname="attributeVisibilityUtil Returns visible" name="attributeVisibilityUtil Returns visible" time="0.01">
+    </testcase>
+    <testcase classname="attributeVisibilityUtil Returns hidden" name="attributeVisibilityUtil Returns hidden" time="0.005">
+    </testcase>
+    <testcase classname="attributeVisibilityUtil It can handle an attribute that is dependend on an other dependent attribute" name="attributeVisibilityUtil It can handle an attribute that is dependend on an other dependent attribute" time="0.011">
+    </testcase>
+    <testcase classname="attributeVisibilityUtil throws error when prefix dependent-attribute: is missing" name="attributeVisibilityUtil throws error when prefix dependent-attribute: is missing" time="0.068">
+    </testcase>
+  </testsuite>
+  <testsuite name="SortingModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:27" time="1.02" tests="3">
+    <testcase classname="SortingModel should be able to create an empty sorting instance" name="SortingModel should be able to create an empty sorting instance" time="0.004">
+    </testcase>
+    <testcase classname="SortingModel can consume a typical modular UI json sorting structure" name="SortingModel can consume a typical modular UI json sorting structure" time="0.002">
+    </testcase>
+    <testcase classname="SortingModel can change sorting" name="SortingModel can change sorting" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="ChoiceAttributeOptionModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:27" time="1.116" tests="4">
+    <testcase classname="ChoiceAttributeOptionModel should be able to create an empty ChoiceAttributeOptionModel" name="ChoiceAttributeOptionModel should be able to create an empty ChoiceAttributeOptionModel" time="0.01">
+    </testcase>
+    <testcase classname="ChoiceAttributeOptionModel Can create a ChoiceAttributeOptionModel with standard json" name="ChoiceAttributeOptionModel Can create a ChoiceAttributeOptionModel with standard json" time="0.016">
+    </testcase>
+    <testcase classname="ChoiceAttributeOptionModel Can handle content models" name="ChoiceAttributeOptionModel Can handle content models" time="0.03">
+    </testcase>
+    <testcase classname="ChoiceAttributeOptionModel Can handle elements" name="ChoiceAttributeOptionModel Can handle elements" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="Models" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:28" time="0.933" tests="2">
+    <testcase classname="Models Filters FilterCollection should be able to create an empty collection" name="Models Filters FilterCollection should be able to create an empty collection" time="0.002">
+    </testcase>
+    <testcase classname="Models Filters FilterCollection should be able to change filters in the filter collection" name="Models Filters FilterCollection should be able to change filters in the filter collection" time="0.018">
+    </testcase>
+  </testsuite>
+  <testsuite name="FormModel getters" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:28" time="1.018" tests="6">
+    <testcase classname="FormModel getters should be able to create an empty FormModel object" name="FormModel getters should be able to create an empty FormModel object" time="0.047">
+    </testcase>
+    <testcase classname="FormModel getters can get and set commit param" name="FormModel getters can get and set commit param" time="0.001">
+    </testcase>
+    <testcase classname="FormModel getters can handle parameters" name="FormModel getters can handle parameters" time="0.001">
+    </testcase>
+    <testcase classname="FormModel getters can handle tokens" name="FormModel getters can handle tokens" time="0.001">
+    </testcase>
+    <testcase classname="FormModel getters can handle last modification" name="FormModel getters can handle last modification" time="0">
+    </testcase>
+    <testcase classname="FormModel getters can handle first question" name="FormModel getters can handle first question" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="resolveModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:28" time="1.223" tests="1">
+    <testcase classname="resolveModel should be able to resolve a model based on modular ui contributions" name="resolveModel should be able to resolve a model based on modular ui contributions" time="0.015">
+    </testcase>
+  </testsuite>
+  <testsuite name="AttributeCollection" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:28" time="1.038" tests="6">
+    <testcase classname="AttributeCollection should be able to create an empty AttributeCollection object" name="AttributeCollection should be able to create an empty AttributeCollection object" time="0.007">
+    </testcase>
+    <testcase classname="AttributeCollection can create collection from form data and contributions" name="AttributeCollection can create collection from form data and contributions" time="0.045">
+    </testcase>
+    <testcase classname="AttributeCollection can handle list detail data and contributions" name="AttributeCollection can handle list detail data and contributions" time="0.018">
+    </testcase>
+    <testcase classname="AttributeCollection can create an attribute collection from list item data and contributions" name="AttributeCollection can create an attribute collection from list item data and contributions" time="0.006">
+    </testcase>
+    <testcase classname="AttributeCollection can handle actions fields data and contributions" name="AttributeCollection can handle actions fields data and contributions" time="0.002">
+    </testcase>
+    <testcase classname="AttributeCollection can replace the complete collection with an other collection" name="AttributeCollection can replace the complete collection with an other collection" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="FormModel repeating objects" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:28" time="1.013" tests="1">
+    <testcase classname="FormModel repeating objects should be able to add an empty form object from existing object" name="FormModel repeating objects should be able to add an empty form object from existing object" time="0.102">
+    </testcase>
+  </testsuite>
+  <testsuite name="ConceptDetailModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:28" time="0.929" tests="1">
+    <testcase classname="ConceptDetailModel should be able to create an empty ConceptDetailModel object" name="ConceptDetailModel should be able to create an empty ConceptDetailModel object" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="LookupOptionsModel spec" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:29" time="1.098" tests="4">
+    <testcase classname="LookupOptionsModel spec should be able to create an empty model" name="LookupOptionsModel spec should be able to create an empty model" time="0.004">
+    </testcase>
+    <testcase classname="LookupOptionsModel spec should be able to create options" name="LookupOptionsModel spec should be able to create options" time="0.005">
+    </testcase>
+    <testcase classname="LookupOptionsModel spec should be able to create options for list" name="LookupOptionsModel spec should be able to create options for list" time="0.027">
+    </testcase>
+    <testcase classname="LookupOptionsModel spec should be able to create options for taxonomy attribute" name="LookupOptionsModel spec should be able to create options for taxonomy attribute" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="TimeAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:29" time="0.785" tests="2">
+    <testcase classname="TimeAttributeModel should be able to create an empty TimeAttribute object" name="TimeAttributeModel should be able to create an empty TimeAttribute object" time="0.007">
+    </testcase>
+    <testcase classname="TimeAttributeModel should be able to update" name="TimeAttributeModel should be able to update" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="AttributeCollectionComposite" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:29" time="1.009" tests="1">
+    <testcase classname="AttributeCollectionComposite can handle multiple composite attributes with same child keys" name="AttributeCollectionComposite can handle multiple composite attributes with same child keys" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="ActionCollection" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:30" time="0.993" tests="3">
+    <testcase classname="ActionCollection should be able to create an empty ActionCollection object" name="ActionCollection should be able to create an empty ActionCollection object" time="0.003">
+    </testcase>
+    <testcase classname="ActionCollection should throw an error when action data is available but no contributions" name="ActionCollection should throw an error when action data is available but no contributions" time="0.015">
+    </testcase>
+    <testcase classname="ActionCollection should be able to create an ActionCollection with standard modular ui json" name="ActionCollection should be able to create an ActionCollection with standard modular ui json" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="TaskGroupModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:30" time="0.945" tests="1">
+    <testcase classname="TaskGroupModel should be able to create an empty Taskgroup mode" name="TaskGroupModel should be able to create an empty Taskgroup mode" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="FormModel selfhref" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:30" time="1.018" tests="2">
+    <testcase classname="FormModel selfhref return a self href" name="FormModel selfhref return a self href" time="0.005">
+    </testcase>
+    <testcase classname="FormModel selfhref return a self href always-commit-form" name="FormModel selfhref return a self href always-commit-form" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="CompositeAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:30" time="1.059" tests="4">
+    <testcase classname="CompositeAttributeModel creates a composite attribute for old date range attribute" name="CompositeAttributeModel creates a composite attribute for old date range attribute" time="0.009">
+    </testcase>
+    <testcase classname="CompositeAttributeModel create a composite attribute for a new date range attribute" name="CompositeAttributeModel create a composite attribute for a new date range attribute" time="0.009">
+    </testcase>
+    <testcase classname="CompositeAttributeModel creates a composite attribute for a choice attribute with a table codemap on a list, single choice" name="CompositeAttributeModel creates a composite attribute for a choice attribute with a table codemap on a list, single choice" time="0.015">
+    </testcase>
+    <testcase classname="CompositeAttributeModel creates a composite attribute for a choice attribute with a table codemap on a list, multiple choice" name="CompositeAttributeModel creates a composite attribute for a choice attribute with a table codemap on a list, multiple choice" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="TabModel spec" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:30" time="1.028" tests="2">
+    <testcase classname="TabModel spec should be able to create an empty Tab object" name="TabModel spec should be able to create an empty Tab object" time="0.006">
+    </testcase>
+    <testcase classname="TabModel spec should create a Tab object with links an a label on a typical modular ui response" name="TabModel spec should create a Tab object with links an a label on a typical modular ui response" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="LookupAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:30" time="1.01" tests="2">
+    <testcase classname="LookupAttributeModel should be able to create an instance of LookupAttributeModel" name="LookupAttributeModel should be able to create an instance of LookupAttributeModel" time="0.005">
+    </testcase>
+    <testcase classname="LookupAttributeModel has a lookupLink" name="LookupAttributeModel has a lookupLink" time="0.018">
+    </testcase>
+  </testsuite>
+  <testsuite name="FilterModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:30" time="1.029" tests="3">
+    <testcase classname="FilterModel should be able to create an empty filter" name="FilterModel should be able to create an empty filter" time="0.025">
+    </testcase>
+    <testcase classname="FilterModel should be able to create a filter from a typical modular UI json filter structure without value" name="FilterModel should be able to create a filter from a typical modular UI json filter structure without value" time="0.004">
+    </testcase>
+    <testcase classname="FilterModel should be able to create a filter from a typical modular UI json filter structure with value" name="FilterModel should be able to create a filter from a typical modular UI json filter structure with value" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="DateTimeUtil" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:31" time="0.92" tests="39">
+    <testcase classname="DateTimeUtil Should convert java date time format to moment date time format" name="DateTimeUtil Should convert java date time format to moment date time format" time="0.005">
+    </testcase>
+    <testcase classname="DateTimeUtil Should render iso date to specified format" name="DateTimeUtil Should render iso date to specified format" time="0.006">
+    </testcase>
+    <testcase classname="DateTimeUtil Should render specified format to iso date" name="DateTimeUtil Should render specified format to iso date" time="0.002">
+    </testcase>
+    <testcase classname="DateTimeUtil Should render iso time to specified format" name="DateTimeUtil Should render iso time to specified format" time="0.003">
+    </testcase>
+    <testcase classname="DateTimeUtil Should render specified format to iso time" name="DateTimeUtil Should render specified format to iso time" time="0.005">
+    </testcase>
+    <testcase classname="DateTimeUtil Should render iso timestamp to specified format" name="DateTimeUtil Should render iso timestamp to specified format" time="0.004">
+    </testcase>
+    <testcase classname="DateTimeUtil Should render specified format to iso timestamp" name="DateTimeUtil Should render specified format to iso timestamp" time="0.004">
+    </testcase>
+    <testcase classname="DateTimeUtil Should return invalid date when date entered is not a date" name="DateTimeUtil Should return invalid date when date entered is not a date" time="0.001">
+    </testcase>
+    <testcase classname="DateTimeUtil hasFormat" name="DateTimeUtil hasFormat" time="0.002">
+    </testcase>
+    <testcase classname="DateTimeUtil isValid" name="DateTimeUtil isValid" time="0.002">
+    </testcase>
+    <testcase classname="DateTimeUtil isAfter" name="DateTimeUtil isAfter" time="0.006">
+    </testcase>
+    <testcase classname="DateTimeUtil isSameOrAfter" name="DateTimeUtil isSameOrAfter" time="0.013">
+    </testcase>
+    <testcase classname="DateTimeUtil isBefore" name="DateTimeUtil isBefore" time="0.005">
+    </testcase>
+    <testcase classname="DateTimeUtil isSameOrBefore" name="DateTimeUtil isSameOrBefore" time="0.006">
+    </testcase>
+    <testcase classname="DateTimeUtil isSame" name="DateTimeUtil isSame" time="0.005">
+    </testcase>
+    <testcase classname="DateTimeUtil isOther" name="DateTimeUtil isOther" time="0.004">
+    </testcase>
+    <testcase classname="DateTimeUtil isWeekend" name="DateTimeUtil isWeekend" time="0.003">
+    </testcase>
+    <testcase classname="DateTimeUtil addSeconds" name="DateTimeUtil addSeconds" time="0.001">
+    </testcase>
+    <testcase classname="DateTimeUtil addMinutes" name="DateTimeUtil addMinutes" time="0.002">
+    </testcase>
+    <testcase classname="DateTimeUtil addHours" name="DateTimeUtil addHours" time="0.002">
+    </testcase>
+    <testcase classname="DateTimeUtil addDays" name="DateTimeUtil addDays" time="0.001">
+    </testcase>
+    <testcase classname="DateTimeUtil addWeeks" name="DateTimeUtil addWeeks" time="0.003">
+    </testcase>
+    <testcase classname="DateTimeUtil addMonths" name="DateTimeUtil addMonths" time="0.002">
+    </testcase>
+    <testcase classname="DateTimeUtil addYears" name="DateTimeUtil addYears" time="0.002">
+    </testcase>
+    <testcase classname="DateTimeUtil subtractSeconds" name="DateTimeUtil subtractSeconds" time="0.003">
+    </testcase>
+    <testcase classname="DateTimeUtil subtractMinutes" name="DateTimeUtil subtractMinutes" time="0.007">
+    </testcase>
+    <testcase classname="DateTimeUtil subtractHours" name="DateTimeUtil subtractHours" time="0.001">
+    </testcase>
+    <testcase classname="DateTimeUtil subtractDays" name="DateTimeUtil subtractDays" time="0.001">
+    </testcase>
+    <testcase classname="DateTimeUtil subtractWeeks" name="DateTimeUtil subtractWeeks" time="0.002">
+    </testcase>
+    <testcase classname="DateTimeUtil subtractMonths" name="DateTimeUtil subtractMonths" time="0.002">
+    </testcase>
+    <testcase classname="DateTimeUtil subtractYears" name="DateTimeUtil subtractYears" time="0.003">
+    </testcase>
+    <testcase classname="DateTimeUtil startOfMonth" name="DateTimeUtil startOfMonth" time="0.001">
+    </testcase>
+    <testcase classname="DateTimeUtil startOfWeek" name="DateTimeUtil startOfWeek" time="0.001">
+    </testcase>
+    <testcase classname="DateTimeUtil getWeek" name="DateTimeUtil getWeek" time="0.001">
+    </testcase>
+    <testcase classname="DateTimeUtil setSecond" name="DateTimeUtil setSecond" time="0.002">
+    </testcase>
+    <testcase classname="DateTimeUtil setMinute" name="DateTimeUtil setMinute" time="0.002">
+    </testcase>
+    <testcase classname="DateTimeUtil setHour" name="DateTimeUtil setHour" time="0.002">
+    </testcase>
+    <testcase classname="DateTimeUtil setMonth" name="DateTimeUtil setMonth" time="0.002">
+    </testcase>
+    <testcase classname="DateTimeUtil setYear" name="DateTimeUtil setYear" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="createAttribute With Dynamicschema" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:31" time="0.973" tests="3">
+    <testcase classname="createAttribute With Dynamicschema should be able to create a choice attribute with dynamicschema inside a composite" name="createAttribute With Dynamicschema should be able to create a choice attribute with dynamicschema inside a composite" time="0.01">
+    </testcase>
+    <testcase classname="createAttribute With Dynamicschema should be able to create a choice attribute where an other attribute has a dynamicschema" name="createAttribute With Dynamicschema should be able to create a choice attribute where an other attribute has a dynamicschema" time="0.002">
+    </testcase>
+    <testcase classname="createAttribute With Dynamicschema should create a choice attribute with dynamischema on a form" name="createAttribute With Dynamicschema should create a choice attribute with dynamischema on a form" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="AssignmentFilterModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:31" time="0.979" tests="2">
+    <testcase classname="AssignmentFilterModel creating an AssignmentFilterModel without data should throw" name="AssignmentFilterModel creating an AssignmentFilterModel without data should throw" time="0.028">
+    </testcase>
+    <testcase classname="AssignmentFilterModel should be able to create an AssignmentFilterModel" name="AssignmentFilterModel should be able to create an AssignmentFilterModel" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="CaseSearchModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:31" time="1.003" tests="1">
+    <testcase classname="CaseSearchModel should be able to create an empty CaseSearchModel object" name="CaseSearchModel should be able to create an empty CaseSearchModel object" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="createAttributeComposite" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:31" time="0.938" tests="3">
+    <testcase classname="createAttributeComposite should be able to create a composite attribute from a simple JSON structure" name="createAttributeComposite should be able to create a composite attribute from a simple JSON structure" time="0.012">
+    </testcase>
+    <testcase classname="createAttributeComposite should be able to create a composite attribute from a form JSON structure" name="createAttributeComposite should be able to create a composite attribute from a form JSON structure" time="0.006">
+    </testcase>
+    <testcase classname="createAttributeComposite should be able to create a composite attribute from a list JSON structure" name="createAttributeComposite should be able to create a composite attribute from a list JSON structure" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="createTheme" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:32" time="0.893" tests="3">
+    <testcase classname="createTheme Creates the general theme" name="createTheme Creates the general theme" time="0.014">
+    </testcase>
+    <testcase classname="createTheme Creates the general theme with custom config" name="createTheme Creates the general theme with custom config" time="0.008">
+    </testcase>
+    <testcase classname="createTheme Merges themes" name="createTheme Merges themes" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="createAttribute" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:32" time="1.031" tests="6">
+    <testcase classname="createAttribute should be able to create a string attribute from a simple JSON structure" name="createAttribute should be able to create a string attribute from a simple JSON structure" time="0.006">
+    </testcase>
+    <testcase classname="createAttribute should be able to create a string attribute with value from a simple JSON structure" name="createAttribute should be able to create a string attribute with value from a simple JSON structure" time="0.002">
+    </testcase>
+    <testcase classname="createAttribute should be able to create a number attribute with value from a simple JSON structure" name="createAttribute should be able to create a number attribute with value from a simple JSON structure" time="0.002">
+    </testcase>
+    <testcase classname="createAttribute should be able to create a choice attribute with treshold from a standard JSON structure" name="createAttribute should be able to create a choice attribute with treshold from a standard JSON structure" time="0.003">
+    </testcase>
+    <testcase classname="createAttribute should be able to create a password attribute from a simple JSON structure" name="createAttribute should be able to create a password attribute from a simple JSON structure" time="0.002">
+    </testcase>
+    <testcase classname="createAttribute should be able to create a date attribute from a simple JSON structure" name="createAttribute should be able to create a date attribute from a simple JSON structure" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="FormModel Instrument Questions" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:32" time="1.107" tests="2">
+    <testcase classname="FormModel Instrument Questions creates a current form object from instrument question with question and result" name="FormModel Instrument Questions creates a current form object from instrument question with question and result" time="0.019">
+    </testcase>
+    <testcase classname="FormModel Instrument Questions is able to handle instrument questions" name="FormModel Instrument Questions is able to handle instrument questions" time="0.029">
+    </testcase>
+  </testsuite>
+  <testsuite name="FormObjectModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:32" time="1.067" tests="1">
+    <testcase classname="FormObjectModel should be able to create an empty FormObjectModel object" name="FormObjectModel should be able to create an empty FormObjectModel object" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="BusinessScenarioModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:32" time="1.037" tests="1">
+    <testcase classname="BusinessScenarioModel should be able to create an empty BusinessScenarioModel object" name="BusinessScenarioModel should be able to create an empty BusinessScenarioModel object" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="GroupingModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:32" time="0.986" tests="1">
+    <testcase classname="GroupingModel should be able to create an empty GroupingModel object" name="GroupingModel should be able to create an empty GroupingModel object" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="RangeFilterModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:33" time="1.007" tests="1">
+    <testcase classname="RangeFilterModel should be able to create a RangeFilterModel" name="RangeFilterModel should be able to create a RangeFilterModel" time="0.02">
+    </testcase>
+  </testsuite>
+  <testsuite name="ConceptIndexModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:33" time="1.05" tests="1">
+    <testcase classname="ConceptIndexModel should be able to create an empty ConceptIndexModel object" name="ConceptIndexModel should be able to create an empty ConceptIndexModel object" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="DateBoundaryConstraint" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:33" time="0.674" tests="1">
+    <testcase classname="DateBoundaryConstraint DateBoundaryConstraint checks" name="DateBoundaryConstraint DateBoundaryConstraint checks" time="0.045">
+    </testcase>
+  </testsuite>
+  <testsuite name="GroupingPanelModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:33" time="1.025" tests="1">
+    <testcase classname="GroupingPanelModel should be able to create an empty GroupingPanelModel object" name="GroupingPanelModel should be able to create an empty GroupingPanelModel object" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="ConceptRelationCollection" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:34" time="0.578" tests="1">
+    <testcase classname="ConceptRelationCollection should be able to create an empty ConceptRelationCollection object" name="ConceptRelationCollection should be able to create an empty ConceptRelationCollection object" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="DateTimeFormatConstraint" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:34" time="0.554" tests="1">
+    <testcase classname="DateTimeFormatConstraint DateTimeFormatConstraint checks" name="DateTimeFormatConstraint DateTimeFormatConstraint checks" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="UserModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:33" time="0.918" tests="1">
+    <testcase classname="UserModel should be able to create an empty UserModel object" name="UserModel should be able to create an empty UserModel object" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Application" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:34" time="0.577" tests="4">
+    <testcase classname="Application should be able to create an empty Application object" name="Application should be able to create an empty Application object" time="0.004">
+    </testcase>
+    <testcase classname="Application Application model is applicable for contributions with resourcetype Application" name="Application Application model is applicable for contributions with resourcetype Application" time="0.001">
+    </testcase>
+    <testcase classname="Application should create an application object with links an a label on a typical modular ui response" name="Application should create an application object with links an a label on a typical modular ui response" time="0.007">
+    </testcase>
+    <testcase classname="Application Sets user service models as child models" name="Application Sets user service models as child models" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="LinkCollection spec" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:34" time="0.634" tests="5">
+    <testcase classname="LinkCollection spec should create links with labels when service description available" name="LinkCollection spec should create links with labels when service description available" time="0.007">
+    </testcase>
+    <testcase classname="LinkCollection spec should create a link collection from caseview links" name="LinkCollection spec should create a link collection from caseview links" time="0.002">
+    </testcase>
+    <testcase classname="LinkCollection spec should create a link collection from attribute download links" name="LinkCollection spec should create a link collection from attribute download links" time="0.002">
+    </testcase>
+    <testcase classname="LinkCollection spec can update an existing link in a collection" name="LinkCollection spec can update an existing link in a collection" time="0.002">
+    </testcase>
+    <testcase classname="LinkCollection spec can udd a non-existing link in a collection" name="LinkCollection spec can udd a non-existing link in a collection" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="XMLAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:34" time="0.789" tests="1">
+    <testcase classname="XMLAttributeModel should be able to create an empty XMLAttributeModel object" name="XMLAttributeModel should be able to create an empty XMLAttributeModel object" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="SourceReferenceModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:34" time="0.647" tests="1">
+    <testcase classname="SourceReferenceModel should be able to create an empty SourceReferenceModel object" name="SourceReferenceModel should be able to create an empty SourceReferenceModel object" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="formatValue" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:34" time="0.659" tests="1">
+    <testcase classname="formatValue should be able to handle the java.text.DecimalFormat" name="formatValue should be able to handle the java.text.DecimalFormat" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="TimestampAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:34" time="0.931" tests="2">
+    <testcase classname="TimestampAttributeModel should be able to create an empty TimestampAttribute object" name="TimestampAttributeModel should be able to create an empty TimestampAttribute object" time="0.007">
+    </testcase>
+    <testcase classname="TimestampAttributeModel should be able to update" name="TimestampAttributeModel should be able to update" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="Locale" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:35" time="0.653" tests="3">
+    <testcase classname="Locale should be able to give back the native name of a locale" name="Locale should be able to give back the native name of a locale" time="0.009">
+    </testcase>
+    <testcase classname="Locale Throws on non exising locale" name="Locale Throws on non exising locale" time="0.015">
+    </testcase>
+    <testcase classname="Locale Updates be informed message export to format-message formatted messages" name="Locale Updates be informed message export to format-message formatted messages" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="SourceReferenceCollection" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:35" time="0.565" tests="1">
+    <testcase classname="SourceReferenceCollection should be able to create an empty SourceReferenceCollection object" name="SourceReferenceCollection should be able to create an empty SourceReferenceCollection object" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="UploadAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:35" time="0.813" tests="2">
+    <testcase classname="UploadAttributeModel should be able to create an empty UploadAttributeModel object" name="UploadAttributeModel should be able to create an empty UploadAttributeModel object" time="0.014">
+    </testcase>
+    <testcase classname="UploadAttributeModel Can have upload constraints" name="UploadAttributeModel Can have upload constraints" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="ConceptTypeDetailModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:35" time="0.524" tests="1">
+    <testcase classname="ConceptTypeDetailModel should be able to create an empty ConceptTypeDetailModel object" name="ConceptTypeDetailModel should be able to create an empty ConceptTypeDetailModel object" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Href spec" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:35" time="0.533" tests="8">
+    <testcase classname="Href spec should create an empty href when not data is set" name="Href spec should create an empty href when not data is set" time="0.005">
+    </testcase>
+    <testcase classname="Href spec should create a href from a typical link href" name="Href spec should create a href from a typical link href" time="0.003">
+    </testcase>
+    <testcase classname="Href spec should create a href with querystring from a typical link href" name="Href spec should create a href with querystring from a typical link href" time="0.003">
+    </testcase>
+    <testcase classname="Href spec should be able to change querystring parameters" name="Href spec should be able to change querystring parameters" time="0.003">
+    </testcase>
+    <testcase classname="Href spec should be able to server hrefs with spaces" name="Href spec should be able to server hrefs with spaces" time="0.001">
+    </testcase>
+    <testcase classname="Href spec should be able to create an Href from an Href" name="Href spec should be able to create an Href from an Href" time="0.001">
+    </testcase>
+    <testcase classname="Href spec can check for equal hrefs with or without parameters" name="Href spec can check for equal hrefs with or without parameters" time="0.003">
+    </testcase>
+    <testcase classname="Href spec can make distinction between relative and absolute urls" name="Href spec can make distinction between relative and absolute urls" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="PasswordAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:35" time="0.77" tests="2">
+    <testcase classname="PasswordAttributeModel should be able to create an empty PasswordAttribute object" name="PasswordAttributeModel should be able to create an empty PasswordAttribute object" time="0.003">
+    </testcase>
+    <testcase classname="PasswordAttributeModel can handle password constraints" name="PasswordAttributeModel can handle password constraints" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="ConceptRelationModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:36" time="0.53" tests="1">
+    <testcase classname="ConceptRelationModel should be able to create an empty ConceptRelationModel object" name="ConceptRelationModel should be able to create an empty ConceptRelationModel object" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="sanitizeHTML" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:36" time="0.486" tests="1">
+    <testcase classname="sanitizeHTML remove unwanted html" name="sanitizeHTML remove unwanted html" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="MemoAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:35" time="0.756" tests="2">
+    <testcase classname="MemoAttributeModel should be able to create an empty MemoAttribute object" name="MemoAttributeModel should be able to create an empty MemoAttribute object" time="0.005">
+    </testcase>
+    <testcase classname="MemoAttributeModel should be able to create a formatted MemoAttribute object" name="MemoAttributeModel should be able to create a formatted MemoAttribute object" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="ModelCatalogModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:36" time="0.528" tests="1">
+    <testcase classname="ModelCatalogModel should be able to create an empty ModelCatalogModel object" name="ModelCatalogModel should be able to create an empty ModelCatalogModel object" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="ResourceCollection" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:36" time="0.534" tests="1">
+    <testcase classname="ResourceCollection should be able get child model links and add childmodels" name="ResourceCollection should be able get child model links and add childmodels" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="ConceptLinkModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:36" time="0.518" tests="1">
+    <testcase classname="ConceptLinkModel should be able to create an empty ConceptLinkModel object" name="ConceptLinkModel should be able to create an empty ConceptLinkModel object" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="NumberBoundaryConstraint" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:36" time="0.489" tests="1">
+    <testcase classname="NumberBoundaryConstraint NumberBoundaryConstraint checks" name="NumberBoundaryConstraint NumberBoundaryConstraint checks" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="Locales" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:36" time="0.718" tests="6">
+    <testcase classname="Locales should be able to retrieve information about a locale" name="Locales should be able to retrieve information about a locale" time="0.028">
+    </testcase>
+    <testcase classname="Locales retrieves locale based on accept language header" name="Locales retrieves locale based on accept language header" time="0.004">
+    </testcase>
+    <testcase classname="Locales should be able to retrieve locale" name="Locales should be able to retrieve locale" time="0.058">
+    </testcase>
+    <testcase classname="Locales should be able to create a custom errors i18n object" name="Locales should be able to create a custom errors i18n object" time="0.001">
+    </testcase>
+    <testcase classname="Locales is able to rehydrate the locales" name="Locales is able to rehydrate the locales" time="0.001">
+    </testcase>
+    <testcase classname="Locales Can update locales" name="Locales Can update locales" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="UserServicesModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:36" time="0.533" tests="1">
+    <testcase classname="UserServicesModel should be able to create an empty UserServicesModel object" name="UserServicesModel should be able to create an empty UserServicesModel object" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="ResourceModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:36" time="0.555" tests="6">
+    <testcase classname="ResourceModel should be able to create an empty ResourceModel object" name="ResourceModel should be able to create an empty ResourceModel object" time="0.019">
+    </testcase>
+    <testcase classname="ResourceModel should handle data without contributions" name="ResourceModel should handle data without contributions" time="0.003">
+    </testcase>
+    <testcase classname="ResourceModel should handle data with contributions" name="ResourceModel should handle data with contributions" time="0.008">
+    </testcase>
+    <testcase classname="ResourceModel should handle data with wrong contributions" name="ResourceModel should handle data with wrong contributions" time="0.001">
+    </testcase>
+    <testcase classname="ResourceModel can handle request information" name="ResourceModel can handle request information" time="0.001">
+    </testcase>
+    <testcase classname="ResourceModel Childmodels should return same model" name="ResourceModel Childmodels should return same model" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="DateAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:36" time="0.756" tests="3">
+    <testcase classname="DateAttributeModel should be able to create an empty Attribute object" name="DateAttributeModel should be able to create an empty Attribute object" time="0.005">
+    </testcase>
+    <testcase classname="DateAttributeModel should create date Attribute from typical modular UI response" name="DateAttributeModel should create date Attribute from typical modular UI response" time="0.005">
+    </testcase>
+    <testcase classname="DateAttributeModel Can set input" name="DateAttributeModel Can set input" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="HelptextAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:37" time="0.727" tests="1">
+    <testcase classname="HelptextAttributeModel should be able to create an empty HelptextAttribute object" name="HelptextAttributeModel should be able to create an empty HelptextAttribute object" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="StringAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:37" time="0.776" tests="5">
+    <testcase classname="StringAttributeModel should be able to create an empty StringAttribute object" name="StringAttributeModel should be able to create an empty StringAttribute object" time="0.006">
+    </testcase>
+    <testcase classname="StringAttributeModel can be reset to an empty string" name="StringAttributeModel can be reset to an empty string" time="0.003">
+    </testcase>
+    <testcase classname="StringAttributeModel can update" name="StringAttributeModel can update" time="0.001">
+    </testcase>
+    <testcase classname="StringAttributeModel can reset a mandatory attribute" name="StringAttributeModel can reset a mandatory attribute" time="0.002">
+    </testcase>
+    <testcase classname="StringAttributeModel should be able to create an empty BSNAttributeModel object" name="StringAttributeModel should be able to create an empty BSNAttributeModel object" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="xhr" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:37" time="0.691" tests="12">
+    <testcase classname="xhr handles simple get requests" name="xhr handles simple get requests" time="0.008">
+    </testcase>
+    <testcase classname="xhr should throw when nothing is set or url is missing" name="xhr should throw when nothing is set or url is missing" time="0.037">
+    </testcase>
+    <testcase classname="xhr adds encoded params to the url" name="xhr adds encoded params to the url" time="0.006">
+    </testcase>
+    <testcase classname="xhr adds encoded params to a url with querystring" name="xhr adds encoded params to a url with querystring" time="0.003">
+    </testcase>
+    <testcase classname="xhr handles json response" name="xhr handles json response" time="0.001">
+    </testcase>
+    <testcase classname="xhr return no responsetext error" name="xhr return no responsetext error" time="0.002">
+    </testcase>
+    <testcase classname="xhr can handle modular ui form responses" name="xhr can handle modular ui form responses" time="0.003">
+    </testcase>
+    <testcase classname="xhr can handle progress events" name="xhr can handle progress events" time="0.003">
+    </testcase>
+    <testcase classname="xhr handles error response" name="xhr handles error response" time="0.003">
+    </testcase>
+    <testcase classname="xhr handles unauthorized response" name="xhr handles unauthorized response" time="0.002">
+    </testcase>
+    <testcase classname="xhr handles unauthorized and unexpected response" name="xhr handles unauthorized and unexpected response" time="0.002">
+    </testcase>
+    <testcase classname="xhr handles basic authentication" name="xhr handles basic authentication" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="NumberAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:37" time="0.789" tests="4">
+    <testcase classname="NumberAttributeModel should be able to create an empty NumberAttribute object" name="NumberAttributeModel should be able to create an empty NumberAttribute object" time="0.006">
+    </testcase>
+    <testcase classname="NumberAttributeModel Can handle numbers" name="NumberAttributeModel Can handle numbers" time="0.006">
+    </testcase>
+    <testcase classname="NumberAttributeModel has constraints" name="NumberAttributeModel has constraints" time="0.002">
+    </testcase>
+    <testcase classname="NumberAttributeModel can update" name="NumberAttributeModel can update" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="MoneyAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:37" time="0.81" tests="2">
+    <testcase classname="MoneyAttributeModel should be able to create an empty ImageAttribute object" name="MoneyAttributeModel should be able to create an empty ImageAttribute object" time="0.004">
+    </testcase>
+    <testcase classname="MoneyAttributeModel Should have a currency symbol" name="MoneyAttributeModel Should have a currency symbol" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="FileSizeConstraint" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:37" time="0.504" tests="2">
+    <testcase classname="FileSizeConstraint FileSizeConstraint standard" name="FileSizeConstraint FileSizeConstraint standard" time="0.008">
+    </testcase>
+    <testcase classname="FileSizeConstraint FileSizeConstraint maxTotalFileSize" name="FileSizeConstraint FileSizeConstraint maxTotalFileSize" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="CaptchaAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:37" time="0.798" tests="1">
+    <testcase classname="CaptchaAttributeModel should be able to create an empty CaptchaAttributeModel object" name="CaptchaAttributeModel should be able to create an empty CaptchaAttributeModel object" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="ProcessTaskModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:37" time="0.765" tests="2">
+    <testcase classname="ProcessTaskModel should be able to create an empty ProcessTaskModel object" name="ProcessTaskModel should be able to create an empty ProcessTaskModel object" time="0.005">
+    </testcase>
+    <testcase classname="ProcessTaskModel creates a process task model" name="ProcessTaskModel creates a process task model" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Password constraints" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:38" time="0.402" tests="1">
+    <testcase classname="Password constraints PasswordMinSpecialCharactersConstraint" name="Password constraints PasswordMinSpecialCharactersConstraint" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="ContentConfigurationElements" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:38" time="0.436" tests="2">
+    <testcase classname="ContentConfigurationElements should be able to create an instance of ContentConfigurationElements" name="ContentConfigurationElements should be able to create an instance of ContentConfigurationElements" time="0.002">
+    </testcase>
+    <testcase classname="ContentConfigurationElements can exclude content by layouthint" name="ContentConfigurationElements can exclude content by layouthint" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="BaseCollection" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:38" time="0.455" tests="9">
+    <testcase classname="BaseCollection should be able to create an empty BaseCollection" name="BaseCollection should be able to create an empty BaseCollection" time="0.004">
+    </testcase>
+    <testcase classname="BaseCollection Can add items" name="BaseCollection Can add items" time="0.004">
+    </testcase>
+    <testcase classname="BaseCollection can remove an item by index" name="BaseCollection can remove an item by index" time="0.001">
+    </testcase>
+    <testcase classname="BaseCollection can replace a collection" name="BaseCollection can replace a collection" time="0.001">
+    </testcase>
+    <testcase classname="BaseCollection can check on empty and filled" name="BaseCollection can check on empty and filled" time="0.001">
+    </testcase>
+    <testcase classname="BaseCollection can retrieve first, last and specific item" name="BaseCollection can retrieve first, last and specific item" time="0.003">
+    </testcase>
+    <testcase classname="BaseCollection can find items" name="BaseCollection can find items" time="0.002">
+    </testcase>
+    <testcase classname="BaseCollection can sort" name="BaseCollection can sort" time="0">
+    </testcase>
+    <testcase classname="BaseCollection has basic array methods" name="BaseCollection has basic array methods" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="AttributeDataHelper" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:38" time="0.443" tests="3">
+    <testcase classname="AttributeDataHelper Can handle string attribute on list" name="AttributeDataHelper Can handle string attribute on list" time="0.002">
+    </testcase>
+    <testcase classname="AttributeDataHelper Handle choice attribute with single choice table codemap on list" name="AttributeDataHelper Handle choice attribute with single choice table codemap on list" time="0.003">
+    </testcase>
+    <testcase classname="AttributeDataHelper Handle choice attribute with multiple choice table codemap on list" name="AttributeDataHelper Handle choice attribute with multiple choice table codemap on list" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="ConstraintCollection" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:38" time="0.409" tests="1">
+    <testcase classname="ConstraintCollection should be able to create an instance of ConstraintCollection" name="ConstraintCollection should be able to create an instance of ConstraintCollection" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="LayoutHintCollection" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:38" time="0.456" tests="5">
+    <testcase classname="LayoutHintCollection can check" name="LayoutHintCollection can check" time="0.002">
+    </testcase>
+    <testcase classname="LayoutHintCollection correctly retrieves a layout hint" name="LayoutHintCollection correctly retrieves a layout hint" time="0.004">
+    </testcase>
+    <testcase classname="LayoutHintCollection correctly retrieves a layout hint value" name="LayoutHintCollection correctly retrieves a layout hint value" time="0.015">
+    </testcase>
+    <testcase classname="LayoutHintCollection correctly retrieves multiple layout hint values" name="LayoutHintCollection correctly retrieves multiple layout hint values" time="0.004">
+    </testcase>
+    <testcase classname="LayoutHintCollection only handles arrays" name="LayoutHintCollection only handles arrays" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="ErrorCollection" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:38" time="0.417" tests="3">
+    <testcase classname="ErrorCollection Should be able to creat an error collection" name="ErrorCollection Should be able to creat an error collection" time="0.005">
+    </testcase>
+    <testcase classname="ErrorCollection Should be able to create an errorcollection from an other errorcollection" name="ErrorCollection Should be able to create an errorcollection from an other errorcollection" time="0">
+    </testcase>
+    <testcase classname="ErrorCollection Should be able to add constraint errors" name="ErrorCollection Should be able to add constraint errors" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="ModularUIResponse" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:38" time="0.402" tests="7">
+    <testcase classname="ModularUIResponse can create an empty response" name="ModularUIResponse can create an empty response" time="0.004">
+    </testcase>
+    <testcase classname="ModularUIResponse can create a response with static create method" name="ModularUIResponse can create a response with static create method" time="0.002">
+    </testcase>
+    <testcase classname="ModularUIResponse can handle locale" name="ModularUIResponse can handle locale" time="0">
+    </testcase>
+    <testcase classname="ModularUIResponse can handle key" name="ModularUIResponse can handle key" time="0.001">
+    </testcase>
+    <testcase classname="ModularUIResponse can handle data" name="ModularUIResponse can handle data" time="0.001">
+    </testcase>
+    <testcase classname="ModularUIResponse can handle contributions" name="ModularUIResponse can handle contributions" time="0.001">
+    </testcase>
+    <testcase classname="ModularUIResponse can rehydrate" name="ModularUIResponse can rehydrate" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="BaseModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:38" time="0.437" tests="7">
+    <testcase classname="BaseModel should be able to create an empty BaseModel object" name="BaseModel should be able to create an empty BaseModel object" time="0.004">
+    </testcase>
+    <testcase classname="BaseModel should handle data without contributions" name="BaseModel should handle data without contributions" time="0.002">
+    </testcase>
+    <testcase classname="BaseModel should handle data with wrong contributions" name="BaseModel should handle data with wrong contributions" time="0">
+    </testcase>
+    <testcase classname="BaseModel should be able to get and set layouthints" name="BaseModel should be able to get and set layouthints" time="0.002">
+    </testcase>
+    <testcase classname="BaseModel can handle connectKeys" name="BaseModel can handle connectKeys" time="0.001">
+    </testcase>
+    <testcase classname="BaseModel can dehydrate and rehydrate" name="BaseModel can dehydrate and rehydrate" time="0.001">
+    </testcase>
+    <testcase classname="BaseModel can clone deep" name="BaseModel can clone deep" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="PasswordConfirmConstraint" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:38" time="0.385" tests="1">
+    <testcase classname="PasswordConfirmConstraint PasswordConfirmConstraint checks" name="PasswordConfirmConstraint PasswordConfirmConstraint checks" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="normalizeLinkJSON spec" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:38" time="0.387" tests="5">
+    <testcase classname="normalizeLinkJSON spec should return empty array when no data and contributions are provided" name="normalizeLinkJSON spec should return empty array when no data and contributions are provided" time="0.002">
+    </testcase>
+    <testcase classname="normalizeLinkJSON spec should create an array of link json from webapp links" name="normalizeLinkJSON spec should create an array of link json from webapp links" time="0.001">
+    </testcase>
+    <testcase classname="normalizeLinkJSON spec should create an array of link json from caseview links" name="normalizeLinkJSON spec should create an array of link json from caseview links" time="0.001">
+    </testcase>
+    <testcase classname="normalizeLinkJSON spec should create an array of link json from download links" name="normalizeLinkJSON spec should create an array of link json from download links" time="0">
+    </testcase>
+    <testcase classname="normalizeLinkJSON spec should  create an array of link json where a link exists in the contributions and not in the data" name="normalizeLinkJSON spec should  create an array of link json where a link exists in the contributions and not in the data" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Password constraints" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.354" tests="1">
+    <testcase classname="Password constraints PasswordLowerAndUpperCaseConstraint" name="Password constraints PasswordLowerAndUpperCaseConstraint" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="FileExtensionConstraint" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.35" tests="1">
+    <testcase classname="FileExtensionConstraint FileExtensionConstraint checks" name="FileExtensionConstraint FileExtensionConstraint checks" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="NumberFormatConstraint" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.356" tests="1">
+    <testcase classname="NumberFormatConstraint NumberFormatConstraint checks" name="NumberFormatConstraint NumberFormatConstraint checks" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="LabelAttributeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:38" time="0.671" tests="1">
+    <testcase classname="LabelAttributeModel should be able to create an empty LabelAttribute object" name="LabelAttributeModel should be able to create an empty LabelAttribute object" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="ConstraintModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.317" tests="2">
+    <testcase classname="ConstraintModel Can create empty model" name="ConstraintModel Can create empty model" time="0.004">
+    </testcase>
+    <testcase classname="ConstraintModel Can create a custom constraint" name="ConstraintModel Can create a custom constraint" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Password constraints" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.319" tests="2">
+    <testcase classname="Password constraints PasswordThreeConsecutiveCharactersNotAllowedConstraint" name="Password constraints PasswordThreeConsecutiveCharactersNotAllowedConstraint" time="0.003">
+    </testcase>
+    <testcase classname="Password constraints PasswordThreeConsecutiveCharactersNotAllowedConstraint 3 concecutive chars" name="Password constraints PasswordThreeConsecutiveCharactersNotAllowedConstraint 3 concecutive chars" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Parameter" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.327" tests="2">
+    <testcase classname="Parameter should be able to create an empty Parameter object" name="Parameter should be able to create an empty Parameter object" time="0.002">
+    </testcase>
+    <testcase classname="Parameter should be able to create a Parameter with various values" name="Parameter should be able to create a Parameter with various values" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="MandatoryConstraint" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.322" tests="1">
+    <testcase classname="MandatoryConstraint Mandatory checks" name="MandatoryConstraint Mandatory checks" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="RegexConstraint" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.315" tests="3">
+    <testcase classname="RegexConstraint Regex checks" name="RegexConstraint Regex checks" time="0.003">
+    </testcase>
+    <testcase classname="RegexConstraint Zipcode" name="RegexConstraint Zipcode" time="0.002">
+    </testcase>
+    <testcase classname="RegexConstraint Email" name="RegexConstraint Email" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Password constraints" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.318" tests="1">
+    <testcase classname="Password constraints PasswordMinNumericCharactersConstraint" name="Password constraints PasswordMinNumericCharactersConstraint" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Settings" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.319" tests="1">
+    <testcase classname="Settings Should be able to retrieve settings" name="Settings Should be able to retrieve settings" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="StringLengthConstraint" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.319" tests="4">
+    <testcase classname="StringLengthConstraint Min Length" name="StringLengthConstraint Min Length" time="0.004">
+    </testcase>
+    <testcase classname="StringLengthConstraint Max Length" name="StringLengthConstraint Max Length" time="0.002">
+    </testcase>
+    <testcase classname="StringLengthConstraint Exact Length" name="StringLengthConstraint Exact Length" time="0.002">
+    </testcase>
+    <testcase classname="StringLengthConstraint Between Length" name="StringLengthConstraint Between Length" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="BSNConstraint" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.343" tests="1">
+    <testcase classname="BSNConstraint BSN checks" name="BSNConstraint BSN checks" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="PagingModel spec" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.32" tests="3">
+    <testcase classname="PagingModel spec should be able to create an empty Paging instance" name="PagingModel spec should be able to create an empty Paging instance" time="0.003">
+    </testcase>
+    <testcase classname="PagingModel spec can consume a typical modular UI json paging structure" name="PagingModel spec can consume a typical modular UI json paging structure" time="0.002">
+    </testcase>
+    <testcase classname="PagingModel spec can change paging" name="PagingModel spec can change paging" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="ErrorModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.32" tests="1">
+    <testcase classname="ErrorModel Should be able to creat an error" name="ErrorModel Should be able to creat an error" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="XMLConstraint" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.295" tests="1">
+    <testcase classname="XMLConstraint XML checks" name="XMLConstraint XML checks" time="0.024">
+    </testcase>
+  </testsuite>
+  <testsuite name="IBANConstraint" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.276" tests="1">
+    <testcase classname="IBANConstraint IBAN checks" name="IBANConstraint IBAN checks" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="PagesizeModel" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.298" tests="3">
+    <testcase classname="PagesizeModel should be able to create an empty Pagesize instance" name="PagesizeModel should be able to create an empty Pagesize instance" time="0.003">
+    </testcase>
+    <testcase classname="PagesizeModel can consume a typical modular UI json pagesize structure" name="PagesizeModel can consume a typical modular UI json pagesize structure" time="0.001">
+    </testcase>
+    <testcase classname="PagesizeModel can change pagesize" name="PagesizeModel can change pagesize" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="formatValue" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:39" time="0.322" tests="1">
+    <testcase classname="formatValue can parse numbers based on configuration" name="formatValue can parse numbers based on configuration" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="LayoutHints" errors="0" failures="0" skipped="0" timestamp="2019-08-27T08:11:40" time="0.233" tests="1">
+    <testcase classname="LayoutHints Should be able retrieve a hint" name="LayoutHints Should be able retrieve a hint" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

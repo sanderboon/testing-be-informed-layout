@@ -1,0 +1,131 @@
+{
+  "lookup": {
+    "resourcetype": "lookupOptions",
+    "filter": [
+      {
+        "LastName": {
+          "type": "stringfilter",
+          "label": "Last name"
+        }
+      }
+    ],
+    "options": [
+      {
+        "code": {
+          "type": "string",
+          "label": "Code",
+          "displaysize": 50,
+          "maxLength": 255
+        },
+        "elements": [
+          {
+            "ID": {
+              "type": "number",
+              "label": "Dossiernummer",
+              "decimalSeparator": ",",
+              "format": "0",
+              "groupingSeparator": "."
+            }
+          },
+          {
+            "CaseName": {
+              "type": "string",
+              "label": "Dossiernaam",
+              "displaysize": 50,
+              "maxLength": 128
+            }
+          },
+          {
+            "PersonID": {
+              "type": "string",
+              "label": "Person ID",
+              "displaysize": 50,
+              "maxLength": 255
+            }
+          },
+          {
+            "FirstName": {
+              "type": "string",
+              "label": "First name",
+              "displaysize": 50,
+              "maxLength": 255
+            }
+          },
+          {
+            "LastName": {
+              "type": "string",
+              "label": "Last name",
+              "displaysize": 50,
+              "maxLength": 255
+            }
+          },
+          {
+            "Gender": {
+              "type": "string",
+              "label": "Gender",
+              "optionMode": "static",
+              "multiplechoice": false,
+              "layouthint": [
+                "combobox"
+              ],
+              "enumerated": true,
+              "options": [
+                {
+                  "code": "PG_Female",
+                  "label": "Female",
+                  "_links": {
+                    "concept": {
+                      "href": "/concepts/Organization/Business design/Organization property classes/Person gender Class.bixml/PG_Female"
+                    }
+                  }
+                },
+                {
+                  "code": "PG_Male",
+                  "label": "Male",
+                  "_links": {
+                    "concept": {
+                      "href": "/concepts/Organization/Business design/Organization property classes/Person gender Class.bixml/PG_Male"
+                    }
+                  }
+                },
+                {
+                  "code": "PG_Undefined",
+                  "label": "Undefined",
+                  "_links": {
+                    "concept": {
+                      "href": "/concepts/Organization/Business design/Organization property classes/Person gender Class.bixml/PG_Undefined"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Address": {
+              "type": "string",
+              "label": "Address",
+              "displaysize": 50,
+              "maxLength": 255
+            }
+          },
+          {
+            "Zipcode": {
+              "type": "string",
+              "label": "Zipcode",
+              "displaysize": 50,
+              "maxLength": 255
+            }
+          },
+          {
+            "City": {
+              "type": "string",
+              "label": "City",
+              "displaysize": 50,
+              "maxLength": 255
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

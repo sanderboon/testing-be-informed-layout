@@ -1,0 +1,18 @@
+{
+  "taskgroup": {
+    "label": "General tasks",
+    "resourcetype": "TaskGroup",
+    "actions": [
+      {
+        "name": "CreatePersonRef",
+        "label": "Create person",
+        "type": "form"
+      },
+      {
+        "name": "UpdatePasswordOfCurrentUser_ref",
+        "label": "Update password of current user",
+        "type": "form"
+      }
+    ]
+  }
+}

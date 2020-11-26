@@ -1,0 +1,203 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nl.beinformed.bi.layout.general</groupId>
+  <artifactId>nl.beinformed.bi.layout.general</artifactId>
+  <version>20.2.0-SNAPSHOT</version>
+
+  <profiles>
+    <!-- run on eclipse build -->
+    <profile>
+      <id>eclipse</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>com.github.eirslett</groupId>
+            <artifactId>frontend-maven-plugin</artifactId>
+            <version>${fmpVersion}</version>
+
+            <executions>
+
+              <!-- install node and npm -->
+              <execution>
+                <id>install node and npm</id>
+                <goals>
+                  <goal>install-node-and-npm</goal>
+                </goals>
+                <configuration>
+                  <nodeVersion>${nodeVersion}</nodeVersion>
+                </configuration>
+              </execution>
+
+              <!-- install dependencies with npm -->
+              <execution>
+                <id>npm install</id>
+                <goals>
+                  <goal>npm</goal>
+                </goals>
+              </execution>
+
+              <!-- run build script -->
+              <execution>
+                <id>npm run</id>
+                <goals>
+                  <goal>npm</goal>
+                </goals>
+
+                <configuration>
+                  <arguments>run eclipse</arguments>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
+    <!-- run on jenkins build -->
+    <profile>
+      <id>jenkins</id>
+      <properties>
+        <environment.name>jenkins</environment.name>
+      </properties>
+
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>com.github.eirslett</groupId>
+            <artifactId>frontend-maven-plugin</artifactId>
+            <version>${fmpVersion}</version>
+
+            <executions>
+
+              <!-- install node and npm -->
+              <execution>
+                <id>install node and npm</id>
+                <goals>
+                  <goal>install-node-and-npm</goal>
+                </goals>
+                <configuration>
+                  <nodeVersion>${nodeVersion}</nodeVersion>
+                </configuration>
+              </execution>
+
+              <!-- install dependencies with npm -->
+              <execution>
+                <id>nmp install</id>
+                <goals>
+                  <goal>npm</goal>
+                </goals>
+                <configuration>
+                  <arguments>ci</arguments>
+                </configuration>
+              </execution>
+
+              <!-- run build script -->
+              <execution>
+                <id>npm run</id>
+                <goals>
+                  <goal>npm</goal>
+                </goals>
+
+                <configuration>
+                  <arguments>run jenkins</arguments>
+                </configuration>
+              </execution>
+
+              <!-- clean cache -->
+              <execution>
+                <id>npm cache clean</id>
+                <goals>
+                  <goal>npm</goal>
+                </goals>
+                <configuration>
+                  <arguments>cache clean --force</arguments>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+
+    <!-- run on quality build -->
+    <profile>
+      <id>quality</id>
+      <properties>
+        <environment.name>quality</environment.name>
+      </properties>
+
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>com.github.eirslett</groupId>
+            <artifactId>frontend-maven-plugin</artifactId>
+            <version>${fmpVersion}</version>
+
+            <executions>
+
+              <!-- install node and npm -->
+              <execution>
+                <id>install node and npm</id>
+                <goals>
+                  <goal>install-node-and-npm</goal>
+                </goals>
+                <configuration>
+                  <nodeVersion>${nodeVersion}</nodeVersion>
+                </configuration>
+              </execution>
+
+              <!-- install dependencies with npm -->
+              <execution>
+                <id>npm install</id>
+                <goals>
+                  <goal>npm</goal>
+                </goals>
+                <configuration>
+                  <arguments>ci</arguments>
+                </configuration>
+              </execution>
+
+              <!-- run build script -->
+              <execution>
+                <id>npm run</id>
+                <goals>
+                  <goal>npm</goal>
+                </goals>
+
+                <configuration>
+                  <arguments>run quality</arguments>
+                </configuration>
+              </execution>
+
+              <!-- clean cache -->
+              <execution>
+                <id>npm cache clean</id>
+                <goals>
+                  <goal>npm</goal>
+                </goals>
+                <configuration>
+                  <arguments>cache clean --force</arguments>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <jar.skipIfEmpty>true</jar.skipIfEmpty>
+    <maven.install.skip>true</maven.install.skip>
+    <nodeVersion>v12.18.3</nodeVersion>
+    <fmpVersion>1.9.1</fmpVersion>
+    <sonar.projectKey>nl.beinformed.bi.layout.general</sonar.projectKey>
+    <sonar.projectName>General Layout</sonar.projectName>
+    <sonar.sources>src</sonar.sources>
+  </properties>
+</project>

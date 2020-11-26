@@ -1,0 +1,59 @@
+[ignore]
+<PROJECT_ROOT>/.settings/.*
+<PROJECT_ROOT>/.vscode/.*
+<PROJECT_ROOT>/_builder/.*
+<PROJECT_ROOT>/_PLUGIN/.*
+<PROJECT_ROOT>/coverage/.*
+<PROJECT_ROOT>/jest/.*
+<PROJECT_ROOT>/META-INF/.*
+<PROJECT_ROOT>/node/.*
+<PROJECT_ROOT>/target/.*
+<PROJECT_ROOT>/WEB-INF/.*
+<PROJECT_ROOT>/node_modules/.cache/.*
+<PROJECT_ROOT>/node_modules/.staging/.*
+<PROJECT_ROOT>/node_modules/license-checker/tests/config/custom_format_broken.json
+<PROJECT_ROOT>/node_modules/format-message/index.js
+<PROJECT_ROOT>/node_modules/format-message-interpret/index.js
+
+# problems with popper flowtypes
+<PROJECT_ROOT>/node_modules/react-popper/lib/cjs/Popper.js.flow
+<PROJECT_ROOT>/node_modules/react-popper/lib/cjs/Reference.js.flow
+<PROJECT_ROOT>/node_modules/react-popper/lib/cjs/utils.js.flow
+
+
+# problems with exact type in popper flowtype:
+<PROJECT_ROOT>/node_modules/@popperjs/core/lib/index.js.flow
+<PROJECT_ROOT>/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js.flow
+<PROJECT_ROOT>/node_modules/@popperjs/core/lib/createPopper.js.flow
+
+.*/_storybook/.*
+.*\.scss
+
+[include]
+
+[libs]
+./flow/flow-decls/
+./flow/flow-typed/
+
+[lints]
+all=warn
+
+[options]
+sharedmemory.hash_table_pow=23
+esproposal.optional_chaining=enable
+types_first=false
+well_formed_exports=false
+exact_by_default=true
+react.runtime=automatic
+
+# webpack loaders
+module.name_mapper='.*\.s?css$' -> '<PROJECT_ROOT>/flow/flow-stubs/css-module.js'
+module.name_mapper='.*\.\(svg\|png\|jpg\|gif\|ico\|xml\)$' -> '<PROJECT_ROOT>/flow/flow-stubs/url-loader.js'
+
+# resolve src root folder
+module.name_mapper='^beinformed/\(.*\)$' -> '<PROJECT_ROOT>/src/beinformed/\1'
+module.name_mapper='^beinformed-ui/\(.*\)$' -> '<PROJECT_ROOT>/src/beinformed-ui/\1'
+module.name_mapper='^config/\(.*\)$' -> '<PROJECT_ROOT>/src/config/\1'
+module.name_mapper='^_component-registry/\(.*\)$' -> '<PROJECT_ROOT>/src/_component-registry/\1'
+
+[strict]

@@ -1,0 +1,226 @@
+{
+  "Login.Header": "Log in",
+  "Login.Msg.IncorrectUsernamePassword": "Incorrect username or password.",
+  "Login.Username": "Username",
+  "Login.Username.Placeholder": "Enter username",
+  "Login.Password": "Password",
+  "Login.Password.Placeholder": "Enter password",
+  "Login.Button.Close": "Close",
+  "Login.Button.Login": "Log in",
+
+  "CloseButton.label": "Close",
+
+  "ComponentChooser.Menu.SelectComponent": "Select component",
+
+  "UserLinks.Menu.UserProfile": "User profile",
+  "UserLinks.Menu.ChangePassword": "Change password",
+  "UserLinks.Menu.LogOut": "Log out",
+  "UserLinks.Menu.LogIn": "Log in",
+
+  "UserProfile.Button.Close": "Close",
+  "UserProfile.Header": "User Profile",
+
+  "Choice.Boolean.True": "Yes",
+  "Choice.Boolean.False": "No",
+
+  "DateTimeInput.ButtonLabel": "Open datepicker",
+  "DatePicker.previous": "Previous",
+  "DatePicker.next": "Next",
+  "Datepicker.Day.MondayShort": "Mo",
+  "Datepicker.Day.TuesdayShort": "Tu",
+  "Datepicker.Day.WednesdayShort": "We",
+  "Datepicker.Day.ThursdayShort": "Th",
+  "Datepicker.Day.FridayShort": "Fr",
+  "Datepicker.Day.SaturdayShort": "Sa",
+  "Datepicker.Day.SundayShort": "Su",
+  "Datepicker.Day.Monday": "Monday",
+  "Datepicker.Day.Tuesday": "Tuesday",
+  "Datepicker.Day.Wednesday": "Wednesday",
+  "Datepicker.Day.Thursday": "Thursday",
+  "Datepicker.Day.Friday": "Friday",
+  "Datepicker.Day.Saturday": "Saturday",
+  "Datepicker.Day.Sunday": "Sunday",
+  "DatetimePicker.useTime": "Use time",
+  "DatePicker.up": "Up",
+  "DatePicker.down": "Down",
+  "DatepickerTimeHours.Hour": "Hour",
+  "DatepickerTimeHours.Minute": "Minute",
+  "DatepickerTimeHours.Seconds": "Seconds",
+
+  "Captcha.VerifyButton": "Verify",
+
+  "ChoiceField.Msg.NotSupported": "Field not supported",
+  "ChoiceField.Msg.NoOptionsAvailable": "No options available",
+  "ChoiceOption.AltText.RemoveOption": "Remove",
+
+  "LookupInput.Msg.NoOptions": "No options found",
+  "LookupInput.Placeholder": "Enter one or more characters",
+  "LookupInput.Button.Lookup": "Look up",
+  "LookupInput.AltText.RemoveActiveOption": "Remove option",
+  "LookupInput.ActiveOptions": "Active options",
+
+  "LookupListMain.SelectedLabel": "Selected:",
+  "LookupList.CloseButton": "Close",
+  "LookupList.SelectButton": "Select",
+
+  "SelectField.Placeholder": "Choose an option",
+
+  "Filters.Button.ClearAll": "Clear all filters",
+  "FilterButton.Label": "Filter",
+  "Filter.toggleButton": "Toggle filter",
+  "ChosenFilters.label": "Chosen filters",
+  "RangeFilter.From": "from",
+  "RangeFilter.To": "to",
+
+  "ActionChooser.Button.Actions": "Actions",
+  "ActionChooser.ShowActions": "Show actions",
+
+  "List.AriaLabel.HeaderToolbar": "Available actions for {LIST_LABEL} list",
+
+  "ListViewTypeToggle.AriaLabel": "Toggle list view type",
+  "ListViewTypeToggle.AltText.ListViewToggle": "Show as {VIEWTYPE}",
+  "ListViewTypeToggle.AltText.TableViewToggle": "Show as {VIEWTYPE}",
+  "ListViewTypeToggle.AltText.EditableTableViewToggle": "Show as {VIEWTYPE}",
+
+  "ListNoResults.Msg.EnterSearchTerm": "Enter a search term to search",
+  "ListNoResults.Msg.NoResults": "No {LABEL} available",
+
+  "TableView.Header.SortBy": "Sort by {LABEL}: {DIRECTION}",
+
+  "ListDetailInstrumentResult.GivenAnswerTitle": "Given answers",
+
+  "PagingInfo.Information": "{FIRSTITEM} - {LASTITEM} of {TOTALRESULTS} results",
+
+  "PagingInfo.TotalResults": "{TOTALRESULTS, plural, =0 {no results} one {# result} other {# results}}",
+
+  "PagesizeChooser.PageSize": "Page size: {PAGESIZE}",
+
+  "PagingItem.AriaLabel.GotoFirstPage": "Go to the first page",
+  "PagingItem.AriaLabel.GotoPreviousPage": "Go to the previous page, page number {PREVIOUS_PAGE_NUMBER}",
+  "PagingItem.AriaLabel.GotoNextPage": "Go to the next page, page number {NEXT_PAGE_NUMBER}",
+  "PagingItem.AriaLabel.GotoLastPage": "Go to the last page, page number {LAST_PAGE_NUMBER}",
+  "PagingItem.AriaLabel.GotoPage": "Go to page {PAGE_NUMBER}",
+
+  "Paging.PreviousPage": "Previous page",
+  "Paging.NextPage": "Next page",
+
+  "QuickSearchInput.Placeholder": "Search by {SEARCHOPTION_LABEL}",
+  "QuickSearchInput.SearchLabel": "Search",
+
+  "QuickSearchResuls.Msg.NoResults": "No search results",
+
+  "SortChooser.SortDefaultLabel": "Sort by relevance",
+  "SortChooser.SortBy": "Sort by {COLUMN_NAME}",
+
+  "Sorting.Direction.asc": "Ascending",
+  "Sorting.Direction.desc": "Descending",
+
+  "Notification.Msg.Generic": "The task has finished",
+  "Notification.Msg.Create": "A new item was created.",
+  "Notification.Msg.Update": "The item was updated.",
+  "Notification.Msg.Delete": "The item was deleted.",
+
+  "ModelCatalog.Menu": "Model catalog",
+  "BusinessModelOverview.Header": "Business model overview",
+  "TargetOperatingModel.Header": "Target operating model",
+  "ModelCatalogSearch.Placeholder": "Search by label",
+  "ModelCatalog.EntryDate": "Entry date",
+
+  "BusinessScenario.Header": "Business scenario",
+
+  "ModelOverviewLane.Role": "Roles",
+  "ModelOverviewLane.Channel": "Channels",
+  "ModelOverviewLane.Product": "Products",
+  "ModelOverviewLane.Case": "Cases",
+  "ModelOverviewLane.Register": "Registrations",
+
+  "ModelOverviewLane.CustomerSegment": "Customer segment",
+  "ModelOverviewLane.InteractionChannel": "Interaction channel",
+  "ModelOverviewLane.ProductFamily": "Product family",
+  "ModelOverviewLane.SharedPolicy": "Shared policy",
+  "ModelOverviewLane.BusinessFunction": "Business function",
+  "ModelOverviewLane.RegistrationFunction": "Registration function",
+
+  "FormAttributeSetRepeatable.Create.Header": "Create",
+
+  "Form.Button.Previous": "Previous",
+  "Form.Button.Next": "Next",
+  "Form.Button.Finish": "Finish",
+  "Form.Button.Cancel": "Cancel",
+  "Form.Button.Create": "Create",
+  "Form.Button.Save": "Save",
+
+  "Homepage.Header": "Hello",
+  "Homepage.Msg": "This is an example homepage",
+
+  "ConceptFormula.Header": "Formula",
+  "ConceptLabels.Header": "Alternative labels",
+  "ConceptProperties.Header": "Properties",
+  "ConceptRelations.outgoing": "Outgoing",
+  "ConceptRelations.incoming": "Incoming",
+  "ConceptTextFragments.Header": "Text fragments",
+  "ConceptSourceReferences.Header": "Source references",
+  "ConceptIndex.Header": "Business design",
+  "ContentIndex.Header": "Sources",
+  "RelatedConcepts.Header": "Related concepts",
+  "SourceReferences.GotoSource": "Go to source reference",
+
+  "Concept.Icon.AltText": "Icon of {SUBJECT}",
+
+  "GENERAL_ERROR": "Unknown error occured on the backend of type: {type}",
+
+  "UploadField.placeholder": "Choose file...",
+  "UploadField.errorExceedsMaxFileSize": "File size of {ACTUAL_FILESIZE} exceeds the maximum file size of {MAXIMUM_FILESIZE}",
+  "UploadField.errorExtensionNotAllowed": "File with extension {EXTENSION} is not allowed",
+
+  "UploadInput.removeFile": "Remove file",
+
+  "Constraint.DateTime.MissingValue": "Date and time should both be entered",
+  "Constraint.DateFormat.InvalidFormat": "Date must be entered in the format ${format}",
+  "Constraint.TimeFormat.InvalidFormat": "Time must be entered in the format ${format}",
+
+  "Constraint.Date.InexactDate": "Date must be ${min-date}",
+  "Constraint.Number.InexactNumber": "Number must be ${number}",
+
+  "Constraint.TimeRange.InvalidRangeInclusive": "Start time must be before or equal to the end time",
+  "Constraint.DateRange.InvalidRangeInclusive": "Start date must be before or equal to the end date",
+  "Constraint.DateTimeRange.InvalidRangeInclusive": "Start value must be before or equal to the end value",
+  "Constraint.TimeStampRange.InvalidRangeInclusive": "Start value must be before or equal to the end value",
+  "Constraint.NumberRange.InvalidRangeInclusive": "Start value must be less than or equal to the end value",
+
+  "Constraint.File.MaxFileSize": "Maximum file upload size is ${max-filesize}",
+  "Constraint.File.MaxTotalFileSize": "{filesize-left} of {max-total-filesize} left of total allowed upload size",
+  "Constraint.File.MaxTotalFileSizeExceeded": "Filesize of {total-filesize} exceeds the remaining size of {max-filesize-left}",
+
+  "Constraint.XML.InvalidFormat": "Must be a valid XML structure",
+
+  "Constraint.Number.GroupingSeparator": "Group divider '${group-divider}' must be correctly placed",
+
+  "Password.Confirm.Label": "Confirm ${label}",
+
+  "Constraint.Password.ConfirmMismatch": "Must match ${other} field",
+
+  "DynamicProcessTaskGroup.Required": "Required",
+  "DynamicProcessTaskGroup.Optional": "Not required",
+  "DynamicProcessTaskGroup.Completed": "Completed",
+
+  "ProcessIcon.LockDescription": "Task is applicable, you are not authorized",
+
+  "InlineEdit.CancelEdit": "Cancel",
+  "InlineEdit.CloneRow": "Duplicate",
+  "InlineEdit.DeleteRow": "Delete",
+  "InlineEdit.RowInError": "Has errors",
+  "InlineEdit.SaveInProgress": "Save in progress",
+  "InlineEdit.SaveRow": "Save",
+
+  "Error.CannotRequestResource": "There was a problem requesting a resource",
+
+  "CaseViewButton.label": "Open case",
+
+  "ConfirmDialog.ConfirmQuestion": "Are you sure?",
+  "ConfirmDialogButtons.Cancel": "Cancel",
+  "ConfirmDialogButtons.Confirm": "Confirm",
+
+  "FormLabel.isOptional": "optional",
+  "FormLabel.isMandatory": "*"
+}

@@ -1,0 +1,42 @@
+{
+  "lookup": {
+    "_links": {
+      "self": {
+        "href": "/lookupOptions"
+      },
+      "api_doc": {
+        "href": "/api-docs/v3/lookupOptions"
+      },
+      "contributions": {
+        "href": "/contributions/lookupOptions"
+      }
+    },
+    "options": [
+      {
+        "code": "NativeCountry",
+        "label": "Native country",
+        "_links": {
+          "concept": {
+            "href": "/concepts/Persons/Knowledge model/Taxonomy.bixml/NativeCountry"
+          }
+        },
+        "children": [
+          {
+            "code": "Germany",
+            "label": "Germany",
+            "_links": {
+              "concept": {
+                "href": "/concepts/Persons/Knowledge model/Taxonomy.bixml/Germany"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "filter": {
+      "name": "labelFilter",
+      "param": "labelFilter",
+      "value": "ger"
+    }
+  }
+}

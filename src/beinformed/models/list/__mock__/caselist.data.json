@@ -1,0 +1,520 @@
+{
+  "Books": {
+    "_links": {
+      "self": { "href": "/books/books" },
+      "api_doc": { "href": "/api-docs/v3/books/books" },
+      "contributions": { "href": "/contributions/books/books" }
+    },
+    "actions": [
+      {
+        "name": "createbook",
+        "method": "POST",
+        "href": "/books/books/createbook"
+      }
+    ],
+    "filter": {
+      "Title": { "param": "Title", "name": "Title" },
+      "Format": {
+        "param": "Format",
+        "name": "Format",
+        "options": [
+          { "key": "Hardcover", "count": 9 },
+          { "key": "Paperback", "count": 14 },
+          { "key": "Ebook", "count": 1 },
+          { "key": "Audio", "count": 2 }
+        ]
+      },
+      "Language": {
+        "param": "Language",
+        "name": "Language",
+        "options": [
+          { "key": "EN", "selected": true, "count": 26 },
+          { "key": "DU", "count": 6 }
+        ]
+      },
+      "NumberOfPages": {
+        "name": "NumberOfPages",
+        "startNumber": { "param": "NumberOfPages" },
+        "endNumber": { "param": "endNumberOfPages" }
+      },
+      "C1_1_Name": { "param": "C1_1_Name", "name": "C1_1_Name" },
+      "C2_1_Name": { "param": "C2_1_Name", "name": "C2_1_Name" },
+      "AssignmentsBooks": {
+        "name": "AssignmentsBooks",
+        "USERKEY": {
+          "param": "USERKEY",
+          "name": "USERKEY",
+          "_links": {
+            "lookupOptions": {
+              "href":
+              "/lookupOptions?lookupToken=55dd4687-de7c-4695-811d-baa927c6a9df"
+            }
+          }
+        },
+        "ASSIGNMENTTYPE": {
+          "param": "ASSIGNMENTTYPE",
+          "name": "ASSIGNMENTTYPE",
+          "options": [{ "key": "Practitioner" }]
+        }
+      }
+    },
+    "paging": { "totalresults": 26, "pagesize": 10, "page": 2, "maxpages": 3 },
+    "sorting": "ID asc",
+    "_embedded": {
+      "results": [
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "addauthor",
+                "method": "POST",
+                "href": "/books/books/34/addauthor",
+                "fields": [{ "name": "ID", "type": "number", "value": 34 }]
+              },
+              {
+                "name": "addco-author",
+                "method": "POST",
+                "href": "/books/books/34/addco-author",
+                "fields": [{ "name": "ID", "type": "number", "value": 34 }]
+              },
+              {
+                "name": "addillustrator",
+                "method": "POST",
+                "href": "/books/books/34/addillustrator",
+                "fields": [{ "name": "ID", "type": "number", "value": 34 }]
+              },
+              {
+                "name": "addedition",
+                "method": "POST",
+                "href": "/books/books/34/addedition",
+                "fields": [{ "name": "ID", "type": "number", "value": 34 }]
+              },
+              {
+                "name": "delete-book",
+                "method": "POST",
+                "href": "/books/books/34/delete-book",
+                "fields": [{ "name": "ID", "type": "number", "value": 34 }]
+              },
+              {
+                "name": "update-book",
+                "method": "POST",
+                "href": "/books/books/34/update-book",
+                "fields": [{ "name": "ID", "type": "number", "value": 34 }]
+              }
+            ],
+            "_id": 34,
+            "_links": {
+              "self": { "href": "/books/book/34" },
+              "Contributors": { "href": "/books/books/34/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/34/publishedbypublishinghouse"
+              }
+            },
+            "Title": "Highly Inappropriate Tales for Young People",
+            "ISBN10": "434021598X",
+            "ISBN13": "9780434021598",
+            "NumberOfPages": 144,
+            "Format": "Hardcover",
+            "Language": "EN"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "addauthor",
+                "method": "POST",
+                "href": "/books/books/35/addauthor",
+                "fields": [{ "name": "ID", "type": "number", "value": 35 }]
+              },
+              {
+                "name": "addco-author",
+                "method": "POST",
+                "href": "/books/books/35/addco-author",
+                "fields": [{ "name": "ID", "type": "number", "value": 35 }]
+              },
+              {
+                "name": "addillustrator",
+                "method": "POST",
+                "href": "/books/books/35/addillustrator",
+                "fields": [{ "name": "ID", "type": "number", "value": 35 }]
+              },
+              {
+                "name": "addedition",
+                "method": "POST",
+                "href": "/books/books/35/addedition",
+                "fields": [{ "name": "ID", "type": "number", "value": 35 }]
+              }
+            ],
+            "_id": 35,
+            "_links": {
+              "self": { "href": "/books/book/35" },
+              "Contributors": { "href": "/books/books/35/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/35/publishedbypublishinghouse"
+              }
+            },
+            "Title": "Worst. Person. Ever.",
+            "ISBN10": "0434019909",
+            "ISBN13": "9780434019908",
+            "NumberOfPages": 336,
+            "Format": "Hardcover",
+            "Language": "EN"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "addauthor",
+                "method": "POST",
+                "href": "/books/books/36/addauthor",
+                "fields": [{ "name": "ID", "type": "number", "value": 36 }]
+              },
+              {
+                "name": "addco-author",
+                "method": "POST",
+                "href": "/books/books/36/addco-author",
+                "fields": [{ "name": "ID", "type": "number", "value": 36 }]
+              },
+              {
+                "name": "addillustrator",
+                "method": "POST",
+                "href": "/books/books/36/addillustrator",
+                "fields": [{ "name": "ID", "type": "number", "value": 36 }]
+              },
+              {
+                "name": "addedition",
+                "method": "POST",
+                "href": "/books/books/36/addedition",
+                "fields": [{ "name": "ID", "type": "number", "value": 36 }]
+              }
+            ],
+            "_id": 36,
+            "_links": {
+              "self": { "href": "/books/book/36" },
+              "Contributors": { "href": "/books/books/36/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/36/publishedbypublishinghouse"
+              }
+            },
+            "Title": "The age of Earthquakes",
+            "ISBN10": "0141979569",
+            "ISBN13": "9780141979564",
+            "NumberOfPages": 256,
+            "Format": "Paperback",
+            "Language": "EN"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "addauthor",
+                "method": "POST",
+                "href": "/books/books/37/addauthor",
+                "fields": [{ "name": "ID", "type": "number", "value": 37 }]
+              },
+              {
+                "name": "addco-author",
+                "method": "POST",
+                "href": "/books/books/37/addco-author",
+                "fields": [{ "name": "ID", "type": "number", "value": 37 }]
+              },
+              {
+                "name": "addillustrator",
+                "method": "POST",
+                "href": "/books/books/37/addillustrator",
+                "fields": [{ "name": "ID", "type": "number", "value": 37 }]
+              },
+              {
+                "name": "addedition",
+                "method": "POST",
+                "href": "/books/books/37/addedition",
+                "fields": [{ "name": "ID", "type": "number", "value": 37 }]
+              }
+            ],
+            "_id": 37,
+            "_links": {
+              "self": { "href": "/books/book/37" },
+              "Contributors": { "href": "/books/books/37/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/37/publishedbypublishinghouse"
+              }
+            },
+            "Title": "Player one",
+            "ISBN10": "0099538180",
+            "ISBN13": "9780099538189",
+            "NumberOfPages": 256,
+            "Format": "Paperback",
+            "Language": "EN"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "addauthor",
+                "method": "POST",
+                "href": "/books/books/38/addauthor",
+                "fields": [{ "name": "ID", "type": "number", "value": 38 }]
+              },
+              {
+                "name": "addco-author",
+                "method": "POST",
+                "href": "/books/books/38/addco-author",
+                "fields": [{ "name": "ID", "type": "number", "value": 38 }]
+              },
+              {
+                "name": "addillustrator",
+                "method": "POST",
+                "href": "/books/books/38/addillustrator",
+                "fields": [{ "name": "ID", "type": "number", "value": 38 }]
+              },
+              {
+                "name": "addedition",
+                "method": "POST",
+                "href": "/books/books/38/addedition",
+                "fields": [{ "name": "ID", "type": "number", "value": 38 }]
+              }
+            ],
+            "_id": 38,
+            "_links": {
+              "self": { "href": "/books/book/38" },
+              "Contributors": { "href": "/books/books/38/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/38/publishedbypublishinghouse"
+              }
+            },
+            "Title": "The New York Trilogy",
+            "ISBN10": "0571276555",
+            "ISBN13": "9780571276554",
+            "NumberOfPages": 320,
+            "Format": "Paperback",
+            "Language": "EN"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "addauthor",
+                "method": "POST",
+                "href": "/books/books/39/addauthor",
+                "fields": [{ "name": "ID", "type": "number", "value": 39 }]
+              },
+              {
+                "name": "addco-author",
+                "method": "POST",
+                "href": "/books/books/39/addco-author",
+                "fields": [{ "name": "ID", "type": "number", "value": 39 }]
+              },
+              {
+                "name": "addillustrator",
+                "method": "POST",
+                "href": "/books/books/39/addillustrator",
+                "fields": [{ "name": "ID", "type": "number", "value": 39 }]
+              },
+              {
+                "name": "addedition",
+                "method": "POST",
+                "href": "/books/books/39/addedition",
+                "fields": [{ "name": "ID", "type": "number", "value": 39 }]
+              }
+            ],
+            "_id": 39,
+            "_links": {
+              "self": { "href": "/books/book/39" },
+              "Contributors": { "href": "/books/books/39/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/39/publishedbypublishinghouse"
+              }
+            },
+            "Title": "The New York Trilogy",
+            "ISBN10": "0143039830",
+            "ISBN13": "9780143039839",
+            "NumberOfPages": 308,
+            "Format": "Paperback",
+            "Language": "EN"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "addauthor",
+                "method": "POST",
+                "href": "/books/books/42/addauthor",
+                "fields": [{ "name": "ID", "type": "number", "value": 42 }]
+              },
+              {
+                "name": "addco-author",
+                "method": "POST",
+                "href": "/books/books/42/addco-author",
+                "fields": [{ "name": "ID", "type": "number", "value": 42 }]
+              },
+              {
+                "name": "addillustrator",
+                "method": "POST",
+                "href": "/books/books/42/addillustrator",
+                "fields": [{ "name": "ID", "type": "number", "value": 42 }]
+              },
+              {
+                "name": "addedition",
+                "method": "POST",
+                "href": "/books/books/42/addedition",
+                "fields": [{ "name": "ID", "type": "number", "value": 42 }]
+              }
+            ],
+            "_id": 42,
+            "_links": {
+              "self": { "href": "/books/book/42" },
+              "Contributors": { "href": "/books/books/42/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/42/publishedbypublishinghouse"
+              }
+            },
+            "Title": "Revolutionary Road",
+            "ISBN10": "0375708448",
+            "ISBN13": "9780375708442",
+            "NumberOfPages": 337,
+            "Format": "Paperback",
+            "Language": "EN"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "addauthor",
+                "method": "POST",
+                "href": "/books/books/45/addauthor",
+                "fields": [{ "name": "ID", "type": "number", "value": 45 }]
+              },
+              {
+                "name": "addco-author",
+                "method": "POST",
+                "href": "/books/books/45/addco-author",
+                "fields": [{ "name": "ID", "type": "number", "value": 45 }]
+              },
+              {
+                "name": "addillustrator",
+                "method": "POST",
+                "href": "/books/books/45/addillustrator",
+                "fields": [{ "name": "ID", "type": "number", "value": 45 }]
+              },
+              {
+                "name": "addedition",
+                "method": "POST",
+                "href": "/books/books/45/addedition",
+                "fields": [{ "name": "ID", "type": "number", "value": 45 }]
+              }
+            ],
+            "_id": 45,
+            "_links": {
+              "self": { "href": "/books/book/45" },
+              "Contributors": { "href": "/books/books/45/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/45/publishedbypublishinghouse"
+              }
+            },
+            "Title": "White Teeth",
+            "ISBN10": "140276335X",
+            "ISBN13": "9780140276336",
+            "NumberOfPages": 560,
+            "Format": "Paperback",
+            "Language": "EN"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "addauthor",
+                "method": "POST",
+                "href": "/books/books/46/addauthor",
+                "fields": [{ "name": "ID", "type": "number", "value": 46 }]
+              },
+              {
+                "name": "addco-author",
+                "method": "POST",
+                "href": "/books/books/46/addco-author",
+                "fields": [{ "name": "ID", "type": "number", "value": 46 }]
+              },
+              {
+                "name": "addillustrator",
+                "method": "POST",
+                "href": "/books/books/46/addillustrator",
+                "fields": [{ "name": "ID", "type": "number", "value": 46 }]
+              },
+              {
+                "name": "addedition",
+                "method": "POST",
+                "href": "/books/books/46/addedition",
+                "fields": [{ "name": "ID", "type": "number", "value": 46 }]
+              }
+            ],
+            "_id": 46,
+            "_links": {
+              "self": { "href": "/books/book/46" },
+              "Contributors": { "href": "/books/books/46/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/46/publishedbypublishinghouse"
+              }
+            },
+            "Title": "On Beauty",
+            "ISBN10": "0241142938",
+            "ISBN13": "9780241142936",
+            "NumberOfPages": 464,
+            "Format": "Hardcover",
+            "Language": "EN"
+          }
+        },
+        {
+          "Book": {
+            "actions": [
+              {
+                "name": "addauthor",
+                "method": "POST",
+                "href": "/books/books/47/addauthor",
+                "fields": [{ "name": "ID", "type": "number", "value": 47 }]
+              },
+              {
+                "name": "addco-author",
+                "method": "POST",
+                "href": "/books/books/47/addco-author",
+                "fields": [{ "name": "ID", "type": "number", "value": 47 }]
+              },
+              {
+                "name": "addillustrator",
+                "method": "POST",
+                "href": "/books/books/47/addillustrator",
+                "fields": [{ "name": "ID", "type": "number", "value": 47 }]
+              },
+              {
+                "name": "addedition",
+                "method": "POST",
+                "href": "/books/books/47/addedition",
+                "fields": [{ "name": "ID", "type": "number", "value": 47 }]
+              }
+            ],
+            "_id": 47,
+            "_links": {
+              "self": { "href": "/books/book/47" },
+              "Contributors": { "href": "/books/books/47/contributors" },
+              "PublishedByPublishingHouse": {
+                "href": "/books/books/47/publishedbypublishinghouse"
+              }
+            },
+            "Title": "NW",
+            "ISBN10": "0241963486",
+            "ISBN13": "9780241963487",
+            "NumberOfPages": 304,
+            "Format": "Ebook",
+            "Language": "EN"
+          }
+        }
+      ]
+    }
+  }
+}
