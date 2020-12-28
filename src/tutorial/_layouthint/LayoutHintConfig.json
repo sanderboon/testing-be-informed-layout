@@ -1,0 +1,19 @@
+
+{
+    "DATE_BIRTHDAY": {
+      "hint": "date-birthday",
+      "description": {
+        "NL": "Geeft het datum attribute met drie aparte input velden weer",
+        "EN": "Renders a date attribute with three separate input fields"
+      },
+      "component": ["attribute/date"]
+    },
+    "MINDMAP": {
+      "hint": "mindmap",
+      "description": {
+        "NL": "Rendered custom mindmap navigation item",
+        "EN": "Rendered custom mindmap navigation item"
+      },
+      "component": ["list/case"]
+    }
+  }

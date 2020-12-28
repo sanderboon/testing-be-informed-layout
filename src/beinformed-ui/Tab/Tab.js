@@ -41,6 +41,8 @@ const Main = styled.main`
   padding: ${spacer()};
 `;
 
+
+
 const Tab = ({ className, tab, pathname }: Props) => {
   if (tab) {
     const tabComponents = [
@@ -86,6 +88,7 @@ const Tab = ({ className, tab, pathname }: Props) => {
           <ConnectedBreadcrumb />
 
           <TabRoutes tab={tab} />
+          
         </Main>
       </StyledTab>
     );

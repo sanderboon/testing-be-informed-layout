@@ -102,7 +102,8 @@ const SignIn = ({
   password.label = passwordLabel;
   password.placeholder = passwordPlaceholder;
 
-  return (
+  return (<div>
+   
     <SignInView
       className={className}
       isModal={get(location.state, "modal", false)}
@@ -112,7 +113,7 @@ const SignIn = ({
       onInputChange={handleInputChange}
       onSubmit={handleSubmit}
       onClose={goBack}
-    />
+    /></div>
   );
 };
 

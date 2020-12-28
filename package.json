@@ -158,6 +158,8 @@
     "history": "^4.10.1",
     "iban": "^0.0.14",
     "is-color": "^1.0.2",
+    "jquery": "^3.5.1",
+    "jquery-clock-timepicker": "^2.3.5",
     "lodash": "^4.17.20",
     "polished": "^4.0.3",
     "prop-types": "^15.7.2",

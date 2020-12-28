@@ -21,6 +21,8 @@ const StyledDropdownButton = styled(DropdownButton)`
   padding: ${spacers(0.5, 1)};
 `;
 
+
+
 /**
  * Tab component chooser
  */
@@ -31,10 +33,13 @@ const NavigationDropdown = ({ className, toggleLabel, items }: Props) => (
       {items.map((item) => (
         <DropdownLink key={item.key} dataId={item.key} href={item.href}>
           {item.label}
-        </DropdownLink>
+        </DropdownLink> 
       ))}
+ 
+
     </DropdownChildren>
   </Dropdown>
+  
 );
 
 NavigationDropdown.displayName = "BI.NavigationDropdown";

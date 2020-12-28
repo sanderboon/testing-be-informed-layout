@@ -20,4 +20,4 @@ export { default as StringAttribute } from "beinformed-ui/FormAttribute/StringAt
 export { default as UploadAttribute } from "beinformed-ui/FormAttribute/UploadAttribute";
 export { default as XMLAttribute } from "beinformed-ui/FormAttribute/XMLAttribute";
 
-export { default as AttributeRenderer } from "beinformed-ui/FormAttribute/AttributeRenderer";
+export { default as AttributeRenderer } from "../tutorial/FormAttribute/AttributeRenderer";

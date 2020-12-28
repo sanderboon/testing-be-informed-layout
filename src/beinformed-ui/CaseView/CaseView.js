@@ -20,7 +20,7 @@ const CaseView = ({ className, caseview }: Props) => {
     const caseName = caseview.casename ? caseview.casename.value : "";
 
     const hasTaskGroup = caseview.taskGroupCollection.hasItems;
-
+    
     return (
       <div className={classNames("caseview", className)}>
         <Helmet>
@@ -31,13 +31,15 @@ const CaseView = ({ className, caseview }: Props) => {
           properties={caseview.attributeCollection.all}
         />
         <Row>
-          <Column size={hasTaskGroup ? 9 : 12}>
+          <Column size={hasTaskGroup ? 9 : 12}>  
             {caseview.introtext && <FormattedText text={caseview.introtext} />}
-
+            
             {caseview.panelLinks.hasItems && (
               <CaseViewPanels caseview={caseview} />
             )}
+          
           </Column>
+          
           {hasTaskGroup && (
             <Column
               as={TaskGroupPanels}
@@ -45,8 +47,8 @@ const CaseView = ({ className, caseview }: Props) => {
               taskGroupPanels={caseview.taskGroupCollection}
             />
           )}
+          
         </Row>
-
         <FormRoute model={caseview} />
       </div>
     );

@@ -4,6 +4,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 
 import { Home } from "_component-registry/home";
 import { UserProfile } from "_component-registry/user";
+import { Mindmap } from "_component-registry/mindmap";
 import {
   ConnectedSignIn,
   ConnectedSignOut,
@@ -40,6 +41,7 @@ const MainRoutes = ({
   <Switch key="mainSwitch" location={location}>
     {children}
     <Route path="/" exact component={Home} />
+    <Route path="/mindmap" exact component={Mindmap} />
     <Route path={LOGIN_PATH} exact component={ConnectedSignIn} />
     <Route
       path={`(${LOGOUT_PATH}|/Logoff)`}

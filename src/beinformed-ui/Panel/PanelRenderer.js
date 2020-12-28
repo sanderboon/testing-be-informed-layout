@@ -42,6 +42,7 @@ const PanelRenderer = ({
         isTab={isTab}
         isRoot={isRoot}
       />
+     
     );
   }
 
@@ -54,7 +55,9 @@ const PanelRenderer = ({
     if (panel.layouthint.has(GOTO_CASEVIEW)) {
       const firstListItem = panel.listItemCollection.first;
       if (firstListItem) {
-        return <Redirect to={firstListItem.selfhref.toString()} />;
+        return 
+          <Redirect to={firstListItem.selfhref.toString()} /> 
+          ;
       }
     }
 

@@ -1,2 +1,2 @@
 // @flow
-export { default as Home } from "beinformed-ui/Home/Home";
+export { default as Home } from "../tutorial/Frontpage/Frontpage";

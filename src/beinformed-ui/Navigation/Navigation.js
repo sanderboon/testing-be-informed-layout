@@ -5,11 +5,13 @@ import styled from "styled-components";
 import { NavigationItem } from "_component-registry/navigation";
 
 import type { LinkModel, LinkCollection } from "beinformed/models";
+
 export type Props = {
   +activeLink?: LinkModel,
   +className?: string,
   +items: LinkCollection,
 };
+
 
 const StyledNav = styled.ul`
   display: flex;
@@ -31,6 +33,7 @@ const Navigation = ({ activeLink, className, items }: Props) => (
         isActive={link.isActive(activeLink)}
       />
     ))}
+   
   </StyledNav>
 );
 
