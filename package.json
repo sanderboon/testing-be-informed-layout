@@ -24,7 +24,8 @@
     "*.css",
     "*.scss",
     "./src/beinformed/client/contextPath.js",
-    "./src/beinformed/server/contextPath.js"
+    "./src/beinformed/server/contextPath.js",
+    "./src/load-jquery.js"
   ],
   "scripts": {
     "start": "cross-env COMMAND=development node ./_builder/start.js",

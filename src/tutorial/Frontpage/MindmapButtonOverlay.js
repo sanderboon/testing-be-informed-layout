@@ -24,7 +24,7 @@ import MindmapTab from "../CustomNuModalbody/CustomMindmapTab"
 
 // import MindmapComponent from '../MindMapjQuery/Mindmap'
 
-// import ClockTimePicker from '../MindMapjQuery/ClockTimePicker'
+import ClockTimePicker from '../MindMapjQuery/ClockTimePicker'
 
 // import TestMindmap from '../MindMapjQuery/TestMindmap'
 
@@ -79,7 +79,7 @@ return (
 */}
 
     <StyledIframe src="http://81.204.36.205:80" height="1500" width="1800" title="Iframe Example"></StyledIframe>   
-    {/* <ClockTimePicker /> */}
+     <ClockTimePicker />
          
     </ModalBody>
     <ModalFooter>

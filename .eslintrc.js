@@ -5,6 +5,7 @@ module.exports = {
     es6: true,
     jest: true,
     node: true,
+    jquery: true
   },
   globals: {
     __webpack_public_path__: "writable",

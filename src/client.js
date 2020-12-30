@@ -1,6 +1,7 @@
 // @flow
 // To prevent problems with context paths,
 // make sure that the be informed client is the first import!
+import "./load-jquery";
 import { default as beinformedClient } from "beinformed/client/client";
 
 // import customized getTheme method

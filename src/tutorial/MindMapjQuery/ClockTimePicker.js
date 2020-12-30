@@ -1,11 +1,8 @@
 import React from 'react'
-import jquery from "jquery"
-window.$ = window.jQuery = jquery
-require('jquery-clock-timepicker')
 
 class Timepicker extends React.Component {
     componentDidMount() {
-        jquery(".time").clockTimePicker()
+        $(".time").clockTimePicker()
     }
 
 
